@@ -1,6 +1,6 @@
-import 'package:defiraiser_mobile/core/cache/app_cache_key.dart';
-import 'package:defiraiser_mobile/core/global/error/exceptions.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/entities/login_entity/login_response_entity.dart';
+import 'package:defifundr_mobile/core/cache/app_cache_key.dart';
+import 'package:defifundr_mobile/core/global/error/exceptions.dart';
+import 'package:defifundr_mobile/features/authentication/domain/entities/login_entity/login_response_entity.dart';
 import 'package:get_storage/get_storage.dart';
 
 abstract class AppCache {

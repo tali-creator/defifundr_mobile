@@ -1,4 +1,4 @@
-import 'package:defiraiser_mobile/features/profile/domain/usecases/set_biometrics_usecase.dart';
+import 'package:defifundr_mobile/features/profile/domain/usecases/set_biometrics_usecase.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';

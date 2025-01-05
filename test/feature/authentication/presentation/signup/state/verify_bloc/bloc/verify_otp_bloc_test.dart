@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
-import 'package:defiraiser_mobile/core/network/api_error.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/entities/base_entity/base_entity.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/usecases/verify_otp_usecase.dart';
-import 'package:defiraiser_mobile/features/authentication/presentation/signup/states/verify_bloc/bloc/verify_otp_bloc.dart';
+import 'package:defifundr_mobile/core/network/api_error.dart';
+import 'package:defifundr_mobile/features/authentication/domain/entities/base_entity/base_entity.dart';
+import 'package:defifundr_mobile/features/authentication/domain/usecases/verify_otp_usecase.dart';
+import 'package:defifundr_mobile/features/authentication/presentation/signup/states/verify_bloc/bloc/verify_otp_bloc.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';

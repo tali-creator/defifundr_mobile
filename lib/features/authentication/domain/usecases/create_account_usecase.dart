@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
-import 'package:defiraiser_mobile/core/network/api_error.dart';
-import 'package:defiraiser_mobile/core/usecases/usecases.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/entities/register_entity/create_account_response.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/repositories/authentication_repository.dart';
+import 'package:defifundr_mobile/core/network/api_error.dart';
+import 'package:defifundr_mobile/core/usecases/usecases.dart';
+import 'package:defifundr_mobile/features/authentication/domain/entities/register_entity/create_account_response.dart';
+import 'package:defifundr_mobile/features/authentication/domain/repositories/authentication_repository.dart';
 import 'package:equatable/equatable.dart';
 
 class CreateUserAccountUsecase implements UseCase<CreateAccountResponse, Params> {

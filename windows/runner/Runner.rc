@@ -94,7 +94,7 @@ BEGIN
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "DefiFundr" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "defiraiser_mobile.exe" "\0"
+            VALUE "OriginalFilename", "defifundr_mobile.exe" "\0"
             VALUE "ProductName", "DefiFundr" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END

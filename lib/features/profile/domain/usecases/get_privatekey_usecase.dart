@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
-import 'package:defiraiser_mobile/core/network/api_error.dart';
-import 'package:defiraiser_mobile/core/usecases/usecases.dart';
-import 'package:defiraiser_mobile/features/profile/domain/entities/address_entity/address_entity.dart';
-import 'package:defiraiser_mobile/features/profile/domain/repositories/profile_repository.dart';
+import 'package:defifundr_mobile/core/network/api_error.dart';
+import 'package:defifundr_mobile/core/usecases/usecases.dart';
+import 'package:defifundr_mobile/features/profile/domain/entities/address_entity/address_entity.dart';
+import 'package:defifundr_mobile/features/profile/domain/repositories/profile_repository.dart';
 import 'package:equatable/equatable.dart';
 
 class GetPrivateUseCaseKey implements UseCase<AddressEntity, GetPrivateKeyParams> {

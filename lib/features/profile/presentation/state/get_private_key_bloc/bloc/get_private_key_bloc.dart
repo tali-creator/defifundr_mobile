@@ -1,10 +1,10 @@
 import 'package:bloc/bloc.dart';
-import 'package:defiraiser_mobile/core/di/injector.dart';
-import 'package:defiraiser_mobile/core/local/local.dart';
-import 'package:defiraiser_mobile/core/secure/secure.dart';
-import 'package:defiraiser_mobile/core/secure/secure_key.dart';
-import 'package:defiraiser_mobile/features/profile/domain/entities/address_entity/address_entity.dart';
-import 'package:defiraiser_mobile/features/profile/domain/usecases/get_privatekey_usecase.dart';
+import 'package:defifundr_mobile/core/di/injector.dart';
+import 'package:defifundr_mobile/core/local/local.dart';
+import 'package:defifundr_mobile/core/secure/secure.dart';
+import 'package:defifundr_mobile/core/secure/secure_key.dart';
+import 'package:defifundr_mobile/features/profile/domain/entities/address_entity/address_entity.dart';
+import 'package:defifundr_mobile/features/profile/domain/usecases/get_privatekey_usecase.dart';
 import 'package:equatable/equatable.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 

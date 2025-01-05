@@ -1,12 +1,12 @@
 import 'dart:convert';
 
-import 'package:defiraiser_mobile/core/global/error/exceptions.dart';
-import 'package:defiraiser_mobile/core/network/endpoint_manager.dart';
-import 'package:defiraiser_mobile/core/network/network_provider.dart';
-import 'package:defiraiser_mobile/features/authentication/data/data_source/authentication_remote_data_source.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/entities/base_entity/base_entity.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/entities/login_entity/login_response_entity.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/entities/register_entity/create_account_response.dart';
+import 'package:defifundr_mobile/core/global/error/exceptions.dart';
+import 'package:defifundr_mobile/core/network/endpoint_manager.dart';
+import 'package:defifundr_mobile/core/network/network_provider.dart';
+import 'package:defifundr_mobile/features/authentication/data/data_source/authentication_remote_data_source.dart';
+import 'package:defifundr_mobile/features/authentication/domain/entities/base_entity/base_entity.dart';
+import 'package:defifundr_mobile/features/authentication/domain/entities/login_entity/login_response_entity.dart';
+import 'package:defifundr_mobile/features/authentication/domain/entities/register_entity/create_account_response.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';

@@ -1,10 +1,10 @@
-import 'package:defiraiser_mobile/core/global/error/exceptions.dart';
-import 'package:defiraiser_mobile/core/network/endpoint_manager.dart';
-import 'package:defiraiser_mobile/core/network/network_provider.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/entities/base_entity/base_entity.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/entities/check_user_entity/check_user_entity.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/entities/login_entity/login_response_entity.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/entities/register_entity/create_account_response.dart';
+import 'package:defifundr_mobile/core/global/error/exceptions.dart';
+import 'package:defifundr_mobile/core/network/endpoint_manager.dart';
+import 'package:defifundr_mobile/core/network/network_provider.dart';
+import 'package:defifundr_mobile/features/authentication/domain/entities/base_entity/base_entity.dart';
+import 'package:defifundr_mobile/features/authentication/domain/entities/check_user_entity/check_user_entity.dart';
+import 'package:defifundr_mobile/features/authentication/domain/entities/login_entity/login_response_entity.dart';
+import 'package:defifundr_mobile/features/authentication/domain/entities/register_entity/create_account_response.dart';
 
 abstract class AuthenticationRemoteDataSource {
   Future<CreateAccountResponse> createAccount(String username, String email);

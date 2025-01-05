@@ -1,11 +1,11 @@
 import 'package:dartz/dartz.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/entities/base_entity/base_entity.dart';
-import 'package:defiraiser_mobile/features/home/data/data_source/campaign_remote_date_source.dart';
-import 'package:defiraiser_mobile/features/home/data/repositories/campaign_repository.dart';
-import 'package:defiraiser_mobile/features/home/domain/entities/campaign_categories_entity/campaign_category_entities.dart'
+import 'package:defifundr_mobile/features/authentication/domain/entities/base_entity/base_entity.dart';
+import 'package:defifundr_mobile/features/home/data/data_source/campaign_remote_date_source.dart';
+import 'package:defifundr_mobile/features/home/data/repositories/campaign_repository.dart';
+import 'package:defifundr_mobile/features/home/domain/entities/campaign_categories_entity/campaign_category_entities.dart'
     as campaign_categories;
-import 'package:defiraiser_mobile/features/home/domain/entities/campaigns/campaigns_entity.dart';
-import 'package:defiraiser_mobile/features/home/domain/entities/donors_entity/donors_entity.dart';
+import 'package:defifundr_mobile/features/home/domain/entities/campaigns/campaigns_entity.dart';
+import 'package:defifundr_mobile/features/home/domain/entities/donors_entity/donors_entity.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 

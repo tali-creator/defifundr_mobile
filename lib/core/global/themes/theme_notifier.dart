@@ -1,8 +1,8 @@
 // ignore_for_file: public_member_api_docs
 
 // 🐦 Flutter imports:
-import 'package:defiraiser_mobile/core/global/themes/theme_state.dart';
-import 'package:defiraiser_mobile/core/global/themes/themes.dart';
+import 'package:defifundr_mobile/core/global/themes/theme_state.dart';
+import 'package:defifundr_mobile/core/global/themes/themes.dart';
 import 'package:flutter/material.dart';
 
 // 📦 Package imports:

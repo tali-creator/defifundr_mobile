@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
-import 'package:defiraiser_mobile/core/usecases/usecases.dart';
-import 'package:defiraiser_mobile/features/home/domain/usecases/current_eth_price_usecases.dart';
+import 'package:defifundr_mobile/core/usecases/usecases.dart';
+import 'package:defifundr_mobile/features/home/domain/usecases/current_eth_price_usecases.dart';
 import 'package:equatable/equatable.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
