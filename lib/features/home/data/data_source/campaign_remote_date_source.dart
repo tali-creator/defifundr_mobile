@@ -1,15 +1,15 @@
 import 'dart:io';
 
-import 'package:defiraiser_mobile/core/di/injector.dart';
-import 'package:defiraiser_mobile/core/global/error/exceptions.dart';
-import 'package:defiraiser_mobile/core/network/endpoint_manager.dart';
-import 'package:defiraiser_mobile/core/network/network_provider.dart';
-import 'package:defiraiser_mobile/core/secure/secure.dart';
-import 'package:defiraiser_mobile/core/secure/secure_key.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/entities/base_entity/base_entity.dart';
-import 'package:defiraiser_mobile/features/home/domain/entities/campaign_categories_entity/campaign_category_entities.dart';
-import 'package:defiraiser_mobile/features/home/domain/entities/campaigns/campaigns_entity.dart';
-import 'package:defiraiser_mobile/features/home/domain/entities/donors_entity/donors_entity.dart';
+import 'package:defifundr_mobile/core/di/injector.dart';
+import 'package:defifundr_mobile/core/global/error/exceptions.dart';
+import 'package:defifundr_mobile/core/network/endpoint_manager.dart';
+import 'package:defifundr_mobile/core/network/network_provider.dart';
+import 'package:defifundr_mobile/core/secure/secure.dart';
+import 'package:defifundr_mobile/core/secure/secure_key.dart';
+import 'package:defifundr_mobile/features/authentication/domain/entities/base_entity/base_entity.dart';
+import 'package:defifundr_mobile/features/home/domain/entities/campaign_categories_entity/campaign_category_entities.dart';
+import 'package:defifundr_mobile/features/home/domain/entities/campaigns/campaigns_entity.dart';
+import 'package:defifundr_mobile/features/home/domain/entities/donors_entity/donors_entity.dart';
 import 'package:dio/dio.dart';
 import 'package:http_parser/http_parser.dart';
 

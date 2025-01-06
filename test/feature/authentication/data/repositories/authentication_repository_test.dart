@@ -1,13 +1,13 @@
 import 'package:dartz/dartz.dart';
-import 'package:defiraiser_mobile/features/authentication/data/data_source/authentication_local_datasource.dart';
-import 'package:defiraiser_mobile/features/authentication/data/data_source/authentication_remote_data_source.dart';
-import 'package:defiraiser_mobile/features/authentication/data/repositories/authentication_repository.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/entities/base_entity/base_entity.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/entities/check_user_entity/check_user_entity.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/entities/last_user_cache_details/last_user_cache_details.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/entities/login_entity/login_response_entity.dart'
+import 'package:defifundr_mobile/features/authentication/data/data_source/authentication_local_datasource.dart';
+import 'package:defifundr_mobile/features/authentication/data/data_source/authentication_remote_data_source.dart';
+import 'package:defifundr_mobile/features/authentication/data/repositories/authentication_repository.dart';
+import 'package:defifundr_mobile/features/authentication/domain/entities/base_entity/base_entity.dart';
+import 'package:defifundr_mobile/features/authentication/domain/entities/check_user_entity/check_user_entity.dart';
+import 'package:defifundr_mobile/features/authentication/domain/entities/last_user_cache_details/last_user_cache_details.dart';
+import 'package:defifundr_mobile/features/authentication/domain/entities/login_entity/login_response_entity.dart'
     as login;
-import 'package:defiraiser_mobile/features/authentication/domain/entities/register_entity/create_account_response.dart';
+import 'package:defifundr_mobile/features/authentication/domain/entities/register_entity/create_account_response.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 

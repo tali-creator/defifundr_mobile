@@ -1,9 +1,9 @@
 import 'package:dartz/dartz.dart';
-import 'package:defiraiser_mobile/core/network/api_error.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/entities/base_entity/base_entity.dart';
-import 'package:defiraiser_mobile/features/profile/data/data_source/profile_remote_date_source.dart';
-import 'package:defiraiser_mobile/features/profile/domain/entities/address_entity/address_entity.dart';
-import 'package:defiraiser_mobile/features/profile/domain/repositories/profile_repository.dart';
+import 'package:defifundr_mobile/core/network/api_error.dart';
+import 'package:defifundr_mobile/features/authentication/domain/entities/base_entity/base_entity.dart';
+import 'package:defifundr_mobile/features/profile/data/data_source/profile_remote_date_source.dart';
+import 'package:defifundr_mobile/features/profile/domain/entities/address_entity/address_entity.dart';
+import 'package:defifundr_mobile/features/profile/domain/repositories/profile_repository.dart';
 
 class IProfileRepository implements ProfileRepository {
   late ProfileRemoteDataSource remoteDataSource;

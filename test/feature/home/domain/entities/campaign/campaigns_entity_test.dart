@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:defiraiser_mobile/features/authentication/domain/entities/base_entity/base_entity.dart';
-import 'package:defiraiser_mobile/features/home/domain/entities/campaigns/campaigns_entity.dart';
+import 'package:defifundr_mobile/features/authentication/domain/entities/base_entity/base_entity.dart';
+import 'package:defifundr_mobile/features/home/domain/entities/campaigns/campaigns_entity.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import '../../../../../fixture/fixture_reader.dart';

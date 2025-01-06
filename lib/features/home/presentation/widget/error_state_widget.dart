@@ -1,6 +1,6 @@
 
-import 'package:defiraiser_mobile/core/global/constants/app_json.dart';
-import 'package:defiraiser_mobile/core/global/constants/size.dart';
+import 'package:defifundr_mobile/core/global/constants/app_json.dart';
+import 'package:defifundr_mobile/core/global/constants/size.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lottie/lottie.dart';

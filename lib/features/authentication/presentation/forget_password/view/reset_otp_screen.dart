@@ -1,10 +1,10 @@
-import 'package:defiraiser_mobile/core/global/constants/size.dart';
-import 'package:defiraiser_mobile/core/global/themes/color_scheme.dart';
-import 'package:defiraiser_mobile/core/routers/routes_constants.dart';
-import 'package:defiraiser_mobile/core/shared/appbar/appbar.dart';
-import 'package:defiraiser_mobile/core/shared/button/buttons.dart';
-import 'package:defiraiser_mobile/features/authentication/presentation/forget_password/state/bloc/forget_password_bloc.dart';
-import 'package:defiraiser_mobile/features/authentication/presentation/signup/widgets/resend_widget.dart';
+import 'package:defifundr_mobile/core/global/constants/size.dart';
+import 'package:defifundr_mobile/core/global/themes/color_scheme.dart';
+import 'package:defifundr_mobile/core/routers/routes_constants.dart';
+import 'package:defifundr_mobile/core/shared/appbar/appbar.dart';
+import 'package:defifundr_mobile/core/shared/button/buttons.dart';
+import 'package:defifundr_mobile/features/authentication/presentation/forget_password/state/bloc/forget_password_bloc.dart';
+import 'package:defifundr_mobile/features/authentication/presentation/signup/widgets/resend_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

@@ -1,4 +1,4 @@
-package com.example.defiraiser_mobile
+package com.example.defifundr_mobile
 
 import io.flutter.embedding.android.FlutterActivity
 

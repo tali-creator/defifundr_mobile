@@ -1,10 +1,10 @@
-import 'package:defiraiser_mobile/core/global/constants/app_icons.dart';
-import 'package:defiraiser_mobile/core/global/constants/size.dart';
-import 'package:defiraiser_mobile/core/global/themes/color_scheme.dart';
-import 'package:defiraiser_mobile/features/donation/presentation/view/campaigns_screen.dart';
-import 'package:defiraiser_mobile/features/donation/presentation/view/donations_screen.dart';
-import 'package:defiraiser_mobile/features/home/presentation/_home.dart';
-import 'package:defiraiser_mobile/features/profile/presentation/view/profile_screen.dart';
+import 'package:defifundr_mobile/core/global/constants/app_icons.dart';
+import 'package:defifundr_mobile/core/global/constants/size.dart';
+import 'package:defifundr_mobile/core/global/themes/color_scheme.dart';
+import 'package:defifundr_mobile/features/donation/presentation/view/campaigns_screen.dart';
+import 'package:defifundr_mobile/features/donation/presentation/view/donations_screen.dart';
+import 'package:defifundr_mobile/features/home/presentation/_home.dart';
+import 'package:defifundr_mobile/features/profile/presentation/view/profile_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';

@@ -1,16 +1,16 @@
 import 'dart:async';
 
-import 'package:defiraiser_mobile/core/global/constants/app_texts.dart';
-import 'package:defiraiser_mobile/core/global/constants/size.dart';
-import 'package:defiraiser_mobile/core/global/themes/color_scheme.dart';
-import 'package:defiraiser_mobile/core/routers/routes_constants.dart';
-import 'package:defiraiser_mobile/core/shared/button/buttons.dart';
-import 'package:defiraiser_mobile/core/shared/custom_tooast/custom_tooast.dart';
-import 'package:defiraiser_mobile/core/shared/textfield/textfield.dart';
-import 'package:defiraiser_mobile/core/utils/input_validation.dart';
-import 'package:defiraiser_mobile/core/utils/loading_overlay.dart';
-import 'package:defiraiser_mobile/features/authentication/presentation/signup/states/bloc/sign_up_bloc.dart';
-import 'package:defiraiser_mobile/features/authentication/presentation/signup/states/check_user_bloc/bloc/check_username_bloc.dart';
+import 'package:defifundr_mobile/core/global/constants/app_texts.dart';
+import 'package:defifundr_mobile/core/global/constants/size.dart';
+import 'package:defifundr_mobile/core/global/themes/color_scheme.dart';
+import 'package:defifundr_mobile/core/routers/routes_constants.dart';
+import 'package:defifundr_mobile/core/shared/button/buttons.dart';
+import 'package:defifundr_mobile/core/shared/custom_tooast/custom_tooast.dart';
+import 'package:defifundr_mobile/core/shared/textfield/textfield.dart';
+import 'package:defifundr_mobile/core/utils/input_validation.dart';
+import 'package:defifundr_mobile/core/utils/loading_overlay.dart';
+import 'package:defifundr_mobile/features/authentication/presentation/signup/states/bloc/sign_up_bloc.dart';
+import 'package:defifundr_mobile/features/authentication/presentation/signup/states/check_user_bloc/bloc/check_username_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

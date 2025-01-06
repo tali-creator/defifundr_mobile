@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:defiraiser_mobile/features/authentication/domain/entities/check_user_entity/check_user_entity.dart';
+import 'package:defifundr_mobile/features/authentication/domain/entities/check_user_entity/check_user_entity.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import '../../../../../fixture/fixture_reader.dart';

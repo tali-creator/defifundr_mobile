@@ -1,5 +1,5 @@
 import 'package:bloc/bloc.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/usecases/create_user_password_usecase.dart';
+import 'package:defifundr_mobile/features/authentication/domain/usecases/create_user_password_usecase.dart';
 import 'package:equatable/equatable.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 

@@ -1,9 +1,9 @@
 import 'package:dartz/dartz.dart';
-import 'package:defiraiser_mobile/core/network/api_error.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/entities/check_user_entity/check_user_entity.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/entities/register_entity/create_account_response.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/repositories/authentication_repository.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/usecases/check_user_exist_usecase.dart';
+import 'package:defifundr_mobile/core/network/api_error.dart';
+import 'package:defifundr_mobile/features/authentication/domain/entities/check_user_entity/check_user_entity.dart';
+import 'package:defifundr_mobile/features/authentication/domain/entities/register_entity/create_account_response.dart';
+import 'package:defifundr_mobile/features/authentication/domain/repositories/authentication_repository.dart';
+import 'package:defifundr_mobile/features/authentication/domain/usecases/check_user_exist_usecase.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';

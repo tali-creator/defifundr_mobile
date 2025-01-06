@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/entities/login_entity/login_response_entity.dart';
-import 'package:defiraiser_mobile/features/authentication/domain/usecases/get_user_details_usecase.dart';
+import 'package:defifundr_mobile/features/authentication/domain/entities/login_entity/login_response_entity.dart';
+import 'package:defifundr_mobile/features/authentication/domain/usecases/get_user_details_usecase.dart';
 import 'package:equatable/equatable.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 

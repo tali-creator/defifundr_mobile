@@ -1,4 +1,4 @@
-import 'package:defiraiser_mobile/core/local/local.dart';
+import 'package:defifundr_mobile/core/local/local.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:local_auth/local_auth.dart';
 import 'package:mockito/annotations.dart';

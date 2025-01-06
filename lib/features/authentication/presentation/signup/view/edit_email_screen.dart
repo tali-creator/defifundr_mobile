@@ -1,10 +1,10 @@
-import 'package:defiraiser_mobile/core/global/constants/app_texts.dart';
-import 'package:defiraiser_mobile/core/global/constants/size.dart';
-import 'package:defiraiser_mobile/core/global/themes/color_scheme.dart';
-import 'package:defiraiser_mobile/core/shared/appbar/appbar.dart';
-import 'package:defiraiser_mobile/core/shared/button/buttons.dart';
-import 'package:defiraiser_mobile/core/shared/textfield/textfield.dart';
-import 'package:defiraiser_mobile/core/utils/input_validation.dart';
+import 'package:defifundr_mobile/core/global/constants/app_texts.dart';
+import 'package:defifundr_mobile/core/global/constants/size.dart';
+import 'package:defifundr_mobile/core/global/themes/color_scheme.dart';
+import 'package:defifundr_mobile/core/shared/appbar/appbar.dart';
+import 'package:defifundr_mobile/core/shared/button/buttons.dart';
+import 'package:defifundr_mobile/core/shared/textfield/textfield.dart';
+import 'package:defifundr_mobile/core/utils/input_validation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

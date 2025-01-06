@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:defiraiser_mobile/features/authentication/domain/entities/register_entity/create_account_response.dart';
+import 'package:defifundr_mobile/features/authentication/domain/entities/register_entity/create_account_response.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import '../../../../../fixture/fixture_reader.dart';

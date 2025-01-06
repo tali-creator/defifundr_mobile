@@ -1,5 +1,5 @@
 import 'package:bloc/bloc.dart';
-import 'package:defiraiser_mobile/features/home/domain/usecases/make_donation_usecase.dart';
+import 'package:defifundr_mobile/features/home/domain/usecases/make_donation_usecase.dart';
 import 'package:equatable/equatable.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 

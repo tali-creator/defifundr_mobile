@@ -105,6 +105,7 @@ dependencies:
   syncfusion_flutter_datepicker: ^22.2.8
   #?  flutter_screenutil is a Flutter package that provides a set of utilities for implementing responsive UI.
   flutter_screenutil: ^5.9.0
+  nested: ^1.0.0
   
 
 dev_dependencies:

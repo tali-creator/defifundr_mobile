@@ -1,10 +1,10 @@
-import 'package:defiraiser_mobile/core/global/constants/app_icons.dart';
-import 'package:defiraiser_mobile/core/global/constants/app_texts.dart';
-import 'package:defiraiser_mobile/core/global/constants/size.dart';
-import 'package:defiraiser_mobile/core/global/themes/color_scheme.dart';
-import 'package:defiraiser_mobile/core/routers/routes_constants.dart';
-import 'package:defiraiser_mobile/core/shared/appbar/appbar.dart';
-import 'package:defiraiser_mobile/core/shared/custom_tooast/custom_tooast.dart';
+import 'package:defifundr_mobile/core/global/constants/app_icons.dart';
+import 'package:defifundr_mobile/core/global/constants/app_texts.dart';
+import 'package:defifundr_mobile/core/global/constants/size.dart';
+import 'package:defifundr_mobile/core/global/themes/color_scheme.dart';
+import 'package:defifundr_mobile/core/routers/routes_constants.dart';
+import 'package:defifundr_mobile/core/shared/appbar/appbar.dart';
+import 'package:defifundr_mobile/core/shared/custom_tooast/custom_tooast.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
