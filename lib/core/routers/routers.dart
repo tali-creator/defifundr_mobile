@@ -27,7 +27,7 @@ class AppRouter {
       GoRoute(
           path: '/',
           name: RouteConstants.initial,
-          builder: (context, state) => SignupEmailScreen(
+          builder: (context, state) => StartUpScreen(
                 key: state.pageKey,
               ),
           routes: [
