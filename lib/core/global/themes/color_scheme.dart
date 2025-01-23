@@ -11,6 +11,7 @@ class AppColors {
   static const Color grey100 = Color(0xFF5C5C5C);
   static const Color grey200 = Color(0xFFE7E7E7);
   static const Color grey300 = Color(0xFFAAAAAA);
+  static const Color grey400 = Color(0xFFF5F5F5);
   static const Color textfieldColor = Color(0xFFF4F8FD);
   static const Color errorColor = Color(0xFFE02020);
   static const Color successColor = Color(0xFF00C853);
