@@ -25,6 +25,25 @@ class AppRouter {
     navigatorKey: _rootNavigatorKey,
     routes: [
       GoRoute(
+        path: '/welcome',
+        name: RouteConstants.welcome,
+        pageBuilder: (context, state) {
+          return CustomTransitionPage(
+            key: state.pageKey,
+            child: WelcomeScreen(
+              email: state.queryParameters['email'] ?? 'hamiltontyler24@gmail.com',
+            ),
+            transitionsBuilder: (context, animation, secondaryAnimation, child) {
+              return FadeTransition(
+                opacity: CurveTween(curve: Curves.easeInOutCirc)
+                    .animate(animation),
+                child: child,
+              );
+            },
+          );
+        },
+      ),
+      GoRoute(
           path: '/',
           name: RouteConstants.initial,
           builder: (context, state) => StartUpScreen(

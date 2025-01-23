@@ -1,7 +1,7 @@
 class RouteConstants {
+  static const String welcome = 'welcome';
   static String initial = '/';
   static String onboarding = 'onboarding';
-  static String welcome = 'welcome';
   static String login = 'login';
   static String loginBiometrics = 'loginBiometrics';
   static String selectAvatar = 'selectAvatar';
