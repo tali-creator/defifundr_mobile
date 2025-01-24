@@ -24,8 +24,12 @@ mixin _$CampaignCategories {
   dynamic get message => throw _privateConstructorUsedError;
   int get status => throw _privateConstructorUsedError;
 
+  /// Serializes this CampaignCategories to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of CampaignCategories
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   $CampaignCategoriesCopyWith<CampaignCategories> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -49,6 +53,8 @@ class _$CampaignCategoriesCopyWithImpl<$Res, $Val extends CampaignCategories>
   // ignore: unused_field
   final $Res Function($Val) _then;
 
+  /// Create a copy of CampaignCategories
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -92,6 +98,8 @@ class __$$CampaignCategoriesImplCopyWithImpl<$Res>
       $Res Function(_$CampaignCategoriesImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of CampaignCategories
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -154,7 +162,7 @@ class _$CampaignCategoriesImpl implements _CampaignCategories {
             (identical(other.status, status) || other.status == status));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -162,7 +170,9 @@ class _$CampaignCategoriesImpl implements _CampaignCategories {
       const DeepCollectionEquality().hash(message),
       status);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of CampaignCategories
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$CampaignCategoriesImplCopyWith<_$CampaignCategoriesImpl> get copyWith =>
@@ -192,8 +202,11 @@ abstract class _CampaignCategories implements CampaignCategories {
   dynamic get message;
   @override
   int get status;
+
+  /// Create a copy of CampaignCategories
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$CampaignCategoriesImplCopyWith<_$CampaignCategoriesImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -209,8 +222,12 @@ mixin _$Datum {
   dynamic get description => throw _privateConstructorUsedError;
   dynamic get id => throw _privateConstructorUsedError;
 
+  /// Serializes this Datum to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of Datum
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   $DatumCopyWith<Datum> get copyWith => throw _privateConstructorUsedError;
 }
 
@@ -232,6 +249,8 @@ class _$DatumCopyWithImpl<$Res, $Val extends Datum>
   // ignore: unused_field
   final $Res Function($Val) _then;
 
+  /// Create a copy of Datum
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -279,6 +298,8 @@ class __$$DatumImplCopyWithImpl<$Res>
       _$DatumImpl _value, $Res Function(_$DatumImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of Datum
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -336,7 +357,7 @@ class _$DatumImpl implements _Datum {
             const DeepCollectionEquality().equals(other.id, id));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -345,7 +366,9 @@ class _$DatumImpl implements _Datum {
       const DeepCollectionEquality().hash(description),
       const DeepCollectionEquality().hash(id));
 
-  @JsonKey(ignore: true)
+  /// Create a copy of Datum
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$DatumImplCopyWith<_$DatumImpl> get copyWith =>
@@ -376,8 +399,11 @@ abstract class _Datum implements Datum {
   dynamic get description;
   @override
   dynamic get id;
+
+  /// Create a copy of Datum
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$DatumImplCopyWith<_$DatumImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

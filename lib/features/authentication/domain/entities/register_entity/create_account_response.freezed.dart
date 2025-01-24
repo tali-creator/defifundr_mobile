@@ -25,8 +25,12 @@ mixin _$CreateAccountResponse {
   dynamic get message => throw _privateConstructorUsedError;
   int get status => throw _privateConstructorUsedError;
 
+  /// Serializes this CreateAccountResponse to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of CreateAccountResponse
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   $CreateAccountResponseCopyWith<CreateAccountResponse> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -53,6 +57,8 @@ class _$CreateAccountResponseCopyWithImpl<$Res,
   // ignore: unused_field
   final $Res Function($Val) _then;
 
+  /// Create a copy of CreateAccountResponse
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -76,6 +82,8 @@ class _$CreateAccountResponseCopyWithImpl<$Res,
     ) as $Val);
   }
 
+  /// Create a copy of CreateAccountResponse
+  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $DataCopyWith<$Res>? get data {
@@ -113,6 +121,8 @@ class __$$CreateAccountResponseImplCopyWithImpl<$Res>
       $Res Function(_$CreateAccountResponseImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of CreateAccountResponse
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -166,12 +176,14 @@ class _$CreateAccountResponseImpl implements _CreateAccountResponse {
             (identical(other.status, status) || other.status == status));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(
       runtimeType, data, const DeepCollectionEquality().hash(message), status);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of CreateAccountResponse
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$CreateAccountResponseImplCopyWith<_$CreateAccountResponseImpl>
@@ -201,8 +213,11 @@ abstract class _CreateAccountResponse implements CreateAccountResponse {
   dynamic get message;
   @override
   int get status;
+
+  /// Create a copy of CreateAccountResponse
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$CreateAccountResponseImplCopyWith<_$CreateAccountResponseImpl>
       get copyWith => throw _privateConstructorUsedError;
 }
@@ -220,8 +235,12 @@ mixin _$Data {
   dynamic get address => throw _privateConstructorUsedError;
   dynamic get balance => throw _privateConstructorUsedError;
 
+  /// Serializes this Data to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of Data
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   $DataCopyWith<Data> get copyWith => throw _privateConstructorUsedError;
 }
 
@@ -249,6 +268,8 @@ class _$DataCopyWithImpl<$Res, $Val extends Data>
   // ignore: unused_field
   final $Res Function($Val) _then;
 
+  /// Create a copy of Data
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -311,6 +332,8 @@ class __$$DataImplCopyWithImpl<$Res>
   __$$DataImplCopyWithImpl(_$DataImpl _value, $Res Function(_$DataImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of Data
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -389,7 +412,7 @@ class _$DataImpl implements _Data {
             const DeepCollectionEquality().equals(other.balance, balance));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -400,7 +423,9 @@ class _$DataImpl implements _Data {
       const DeepCollectionEquality().hash(address),
       const DeepCollectionEquality().hash(balance));
 
-  @JsonKey(ignore: true)
+  /// Create a copy of Data
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$DataImplCopyWith<_$DataImpl> get copyWith =>
@@ -437,8 +462,11 @@ abstract class _Data implements Data {
   dynamic get address;
   @override
   dynamic get balance;
+
+  /// Create a copy of Data
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$DataImplCopyWith<_$DataImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

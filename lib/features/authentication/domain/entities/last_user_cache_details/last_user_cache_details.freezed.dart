@@ -26,8 +26,12 @@ mixin _$LastUserCachedDetails {
   String get password => throw _privateConstructorUsedError;
   bool get isBiometric => throw _privateConstructorUsedError;
 
+  /// Serializes this LastUserCachedDetails to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of LastUserCachedDetails
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   $LastUserCachedDetailsCopyWith<LastUserCachedDetails> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -52,6 +56,8 @@ class _$LastUserCachedDetailsCopyWithImpl<$Res,
   // ignore: unused_field
   final $Res Function($Val) _then;
 
+  /// Create a copy of LastUserCachedDetails
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -102,6 +108,8 @@ class __$$LastUserCachedDetailsImplCopyWithImpl<$Res>
       $Res Function(_$LastUserCachedDetailsImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of LastUserCachedDetails
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -171,12 +179,14 @@ class _$LastUserCachedDetailsImpl implements _LastUserCachedDetails {
                 other.isBiometric == isBiometric));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode =>
       Object.hash(runtimeType, username, email, password, isBiometric);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of LastUserCachedDetails
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$LastUserCachedDetailsImplCopyWith<_$LastUserCachedDetailsImpl>
@@ -209,8 +219,11 @@ abstract class _LastUserCachedDetails implements LastUserCachedDetails {
   String get password;
   @override
   bool get isBiometric;
+
+  /// Create a copy of LastUserCachedDetails
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$LastUserCachedDetailsImplCopyWith<_$LastUserCachedDetailsImpl>
       get copyWith => throw _privateConstructorUsedError;
 }

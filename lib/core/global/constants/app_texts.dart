@@ -54,6 +54,12 @@ class AppTexts {
   static String invalidCode = "invalid otp code";
   static String incompleteRegistration = "incomplete registration";
   static String userNotVerified = "user not verified";
+  static String didYouKnow = "Did you know?";
+  static String privateKey = "Private Key";
+  static String recoveryOrSeedPhrase = "Recovery or Seed Phrase";
+  static String yourPrivateKeyIsA64Char = "Your private key is a 64 character special kind of password. It is one way to access your account. Never share it with anyone!";
+  static String yourRecoveryOrSeedPhrase = "Your recovery or seed phrase is a 12 word special kind of password. it is another way to access your account and it must be kept private!";
+
 
   //! DASHBOARD
   static String searchCampaign = "Search Campaign";

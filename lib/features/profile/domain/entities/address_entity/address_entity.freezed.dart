@@ -24,8 +24,12 @@ mixin _$AddressEntity {
   dynamic get message => throw _privateConstructorUsedError;
   int get status => throw _privateConstructorUsedError;
 
+  /// Serializes this AddressEntity to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of AddressEntity
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   $AddressEntityCopyWith<AddressEntity> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -51,6 +55,8 @@ class _$AddressEntityCopyWithImpl<$Res, $Val extends AddressEntity>
   // ignore: unused_field
   final $Res Function($Val) _then;
 
+  /// Create a copy of AddressEntity
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -74,6 +80,8 @@ class _$AddressEntityCopyWithImpl<$Res, $Val extends AddressEntity>
     ) as $Val);
   }
 
+  /// Create a copy of AddressEntity
+  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $DataCopyWith<$Res> get data {
@@ -105,6 +113,8 @@ class __$$AddressEntityImplCopyWithImpl<$Res>
       _$AddressEntityImpl _value, $Res Function(_$AddressEntityImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of AddressEntity
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -158,12 +168,14 @@ class _$AddressEntityImpl implements _AddressEntity {
             (identical(other.status, status) || other.status == status));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(
       runtimeType, data, const DeepCollectionEquality().hash(message), status);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of AddressEntity
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$AddressEntityImplCopyWith<_$AddressEntityImpl> get copyWith =>
@@ -192,8 +204,11 @@ abstract class _AddressEntity implements AddressEntity {
   dynamic get message;
   @override
   int get status;
+
+  /// Create a copy of AddressEntity
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$AddressEntityImplCopyWith<_$AddressEntityImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -207,8 +222,12 @@ mixin _$Data {
   dynamic get address => throw _privateConstructorUsedError;
   dynamic get privateKey => throw _privateConstructorUsedError;
 
+  /// Serializes this Data to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of Data
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   $DataCopyWith<Data> get copyWith => throw _privateConstructorUsedError;
 }
 
@@ -230,6 +249,8 @@ class _$DataCopyWithImpl<$Res, $Val extends Data>
   // ignore: unused_field
   final $Res Function($Val) _then;
 
+  /// Create a copy of Data
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -266,6 +287,8 @@ class __$$DataImplCopyWithImpl<$Res>
   __$$DataImplCopyWithImpl(_$DataImpl _value, $Res Function(_$DataImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of Data
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -310,14 +333,16 @@ class _$DataImpl implements _Data {
                 .equals(other.privateKey, privateKey));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(
       runtimeType,
       const DeepCollectionEquality().hash(address),
       const DeepCollectionEquality().hash(privateKey));
 
-  @JsonKey(ignore: true)
+  /// Create a copy of Data
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$DataImplCopyWith<_$DataImpl> get copyWith =>
@@ -341,8 +366,11 @@ abstract class _Data implements Data {
   dynamic get address;
   @override
   dynamic get privateKey;
+
+  /// Create a copy of Data
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$DataImplCopyWith<_$DataImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

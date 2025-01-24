@@ -24,8 +24,12 @@ mixin _$CheckUserEntity {
   String get message => throw _privateConstructorUsedError;
   int get status => throw _privateConstructorUsedError;
 
+  /// Serializes this CheckUserEntity to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of CheckUserEntity
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   $CheckUserEntityCopyWith<CheckUserEntity> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -49,6 +53,8 @@ class _$CheckUserEntityCopyWithImpl<$Res, $Val extends CheckUserEntity>
   // ignore: unused_field
   final $Res Function($Val) _then;
 
+  /// Create a copy of CheckUserEntity
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -92,6 +98,8 @@ class __$$CheckUserEntityImplCopyWithImpl<$Res>
       _$CheckUserEntityImpl _value, $Res Function(_$CheckUserEntityImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of CheckUserEntity
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -147,11 +155,13 @@ class _$CheckUserEntityImpl implements _CheckUserEntity {
             (identical(other.status, status) || other.status == status));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(runtimeType, data, message, status);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of CheckUserEntity
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$CheckUserEntityImplCopyWith<_$CheckUserEntityImpl> get copyWith =>
@@ -181,8 +191,11 @@ abstract class _CheckUserEntity implements CheckUserEntity {
   String get message;
   @override
   int get status;
+
+  /// Create a copy of CheckUserEntity
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$CheckUserEntityImplCopyWith<_$CheckUserEntityImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

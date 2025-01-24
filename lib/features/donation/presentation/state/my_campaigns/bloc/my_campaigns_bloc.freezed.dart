@@ -84,6 +84,9 @@ class _$MyCampaignsStateCopyWithImpl<$Res, $Val extends MyCampaignsState>
   final $Val _value;
   // ignore: unused_field
   final $Res Function($Val) _then;
+
+  /// Create a copy of MyCampaignsState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -100,6 +103,9 @@ class __$$InitialImplCopyWithImpl<$Res>
   __$$InitialImplCopyWithImpl(
       _$InitialImpl _value, $Res Function(_$InitialImpl) _then)
       : super(_value, _then);
+
+  /// Create a copy of MyCampaignsState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -214,6 +220,9 @@ class __$$LoadingStateImplCopyWithImpl<$Res>
   __$$LoadingStateImplCopyWithImpl(
       _$LoadingStateImpl _value, $Res Function(_$LoadingStateImpl) _then)
       : super(_value, _then);
+
+  /// Create a copy of MyCampaignsState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -331,6 +340,8 @@ class __$$ErrorStateImplCopyWithImpl<$Res>
       _$ErrorStateImpl _value, $Res Function(_$ErrorStateImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of MyCampaignsState
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -369,7 +380,9 @@ class _$ErrorStateImpl implements ErrorState {
   @override
   int get hashCode => Object.hash(runtimeType, error);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of MyCampaignsState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$ErrorStateImplCopyWith<_$ErrorStateImpl> get copyWith =>
@@ -454,7 +467,10 @@ abstract class ErrorState implements MyCampaignsState {
   const factory ErrorState(final String error) = _$ErrorStateImpl;
 
   String get error;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of MyCampaignsState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$ErrorStateImplCopyWith<_$ErrorStateImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -478,6 +494,8 @@ class __$$LoadMyCampaignsImplCopyWithImpl<$Res>
       _$LoadMyCampaignsImpl _value, $Res Function(_$LoadMyCampaignsImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of MyCampaignsState
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -491,6 +509,8 @@ class __$$LoadMyCampaignsImplCopyWithImpl<$Res>
     ));
   }
 
+  /// Create a copy of MyCampaignsState
+  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $CampaignResponseCopyWith<$Res> get campaigns {
@@ -525,7 +545,9 @@ class _$LoadMyCampaignsImpl implements LoadMyCampaigns {
   @override
   int get hashCode => Object.hash(runtimeType, campaigns);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of MyCampaignsState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$LoadMyCampaignsImplCopyWith<_$LoadMyCampaignsImpl> get copyWith =>
@@ -612,7 +634,10 @@ abstract class LoadMyCampaigns implements MyCampaignsState {
       _$LoadMyCampaignsImpl;
 
   CampaignResponse get campaigns;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of MyCampaignsState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$LoadMyCampaignsImplCopyWith<_$LoadMyCampaignsImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
