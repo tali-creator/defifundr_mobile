@@ -87,6 +87,9 @@ class _$VerifyOtpStateCopyWithImpl<$Res, $Val extends VerifyOtpState>
   final $Val _value;
   // ignore: unused_field
   final $Res Function($Val) _then;
+
+  /// Create a copy of VerifyOtpState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -103,6 +106,9 @@ class __$$InitialImplCopyWithImpl<$Res>
   __$$InitialImplCopyWithImpl(
       _$InitialImpl _value, $Res Function(_$InitialImpl) _then)
       : super(_value, _then);
+
+  /// Create a copy of VerifyOtpState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -220,6 +226,9 @@ class __$$VerifyingOtpImplCopyWithImpl<$Res>
   __$$VerifyingOtpImplCopyWithImpl(
       _$VerifyingOtpImpl _value, $Res Function(_$VerifyingOtpImpl) _then)
       : super(_value, _then);
+
+  /// Create a copy of VerifyOtpState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -342,6 +351,8 @@ class __$$OtpVerificationSuccessfulImplCopyWithImpl<$Res>
       $Res Function(_$OtpVerificationSuccessfulImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of VerifyOtpState
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -380,7 +391,9 @@ class _$OtpVerificationSuccessfulImpl implements _OtpVerificationSuccessful {
   @override
   int get hashCode => Object.hash(runtimeType, message);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of VerifyOtpState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$OtpVerificationSuccessfulImplCopyWith<_$OtpVerificationSuccessfulImpl>
@@ -470,7 +483,10 @@ abstract class _OtpVerificationSuccessful implements VerifyOtpState {
       _$OtpVerificationSuccessfulImpl;
 
   String get message;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of VerifyOtpState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$OtpVerificationSuccessfulImplCopyWith<_$OtpVerificationSuccessfulImpl>
       get copyWith => throw _privateConstructorUsedError;
 }
@@ -492,6 +508,8 @@ class __$$OtpVerificationErrorImplCopyWithImpl<$Res>
       $Res Function(_$OtpVerificationErrorImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of VerifyOtpState
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -530,7 +548,9 @@ class _$OtpVerificationErrorImpl implements _OtpVerificationError {
   @override
   int get hashCode => Object.hash(runtimeType, message);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of VerifyOtpState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$OtpVerificationErrorImplCopyWith<_$OtpVerificationErrorImpl>
@@ -621,7 +641,10 @@ abstract class _OtpVerificationError implements VerifyOtpState {
       _$OtpVerificationErrorImpl;
 
   String get message;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of VerifyOtpState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$OtpVerificationErrorImplCopyWith<_$OtpVerificationErrorImpl>
       get copyWith => throw _privateConstructorUsedError;
 }

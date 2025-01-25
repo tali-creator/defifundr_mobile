@@ -54,27 +54,12 @@ class AppTexts {
   static String invalidCode = "invalid otp code";
   static String incompleteRegistration = "incomplete registration";
   static String userNotVerified = "user not verified";
-  static String enterCode = "Please enter the code sent to";
-  static String changeEmail = "Change email";
-  static String codeExpiresIn = "Code expires in:";
-  static String didntGetCode = "Didn't get code?";
-  static String resendCode = "Resend code";
-  static String enterEmail = "Enter email address";
-  static String whatsYourEmail = "'Hi, what’s your email?";
-  static String yourEmailAddressWillImprove =
-      "Relax your email address will help improve with account verification.";
-  static String continueAsGuest = "Continue as Guest";
-  static String next = "Next";
-  static String signup = "Sign up";
-  static String importWallet = "Import wallet with?";
-  static String importWalletDesc =
-      "Choose how you'd like to import an existing wallet";
-  static String privateKeyButton = "Private Key";
-  static String seedPhrase = "Recovery or Seed phrase";
-  static String enterYourPrivateKey = "Enter your private key";
-  static String pasteOrTypePrivateKey = "Please type or paste your private key";
-  static String typePrivateKey= "Paste or type private key";
-  static String importMyAccount = "Import my account";
+  static String didYouKnow = "Did you know?";
+  static String privateKey = "Private Key";
+  static String recoveryOrSeedPhrase = "Recovery or Seed Phrase";
+  static String yourPrivateKeyIsA64Char = "Your private key is a 64 character special kind of password. It is one way to access your account. Never share it with anyone!";
+  static String yourRecoveryOrSeedPhrase = "Your recovery or seed phrase is a 12 word special kind of password. it is another way to access your account and it must be kept private!";
+
 
   //! DASHBOARD
   static String searchCampaign = "Search Campaign";

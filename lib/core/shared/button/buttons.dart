@@ -16,10 +16,13 @@ class AppButton extends StatelessWidget {
     this.gradient,
     this.icon,
     this.iconRtr,
+    this.iconSize,
+    this.borderRadius,
     required this.textColor,
     this.textSize = 16,
     this.borderColor,
     this.isRounded = false,
+    this.preserveIconColor = false,
     required this.onTap,
   });
   final Color? color;
@@ -28,11 +31,14 @@ class AppButton extends StatelessWidget {
   final bool? isRounded;
   final String? icon;
   final String? iconRtr;
+  final double? iconSize;
+  final double? borderRadius;
   final Color textColor;
   final double? textSize;
   final bool? gradient;
   final void Function()? onTap;
   final Color? borderColor;
+  final bool preserveIconColor;
 
   @override
   Widget build(BuildContext context) {
@@ -43,8 +49,9 @@ class AppButton extends StatelessWidget {
         width: (context.screenWidth() * 0.85),
         decoration: BoxDecoration(
           color: isActive! ? color : AppColors.grey200,
-          borderRadius:
-              BorderRadius.circular(isRounded == true ? 40.sp : 15.sp),
+          borderRadius: BorderRadius.circular(
+            borderRadius ?? (isRounded == true ? 40.sp : 15.sp)
+          ),
           border: Border.all(
             width: 0.5.sp,
             color: borderColor ?? Colors.transparent,
@@ -60,12 +67,13 @@ class AppButton extends StatelessWidget {
               if (iconRtr != null)
                 SvgPicture.asset(
                   iconRtr!,
-                  height: 16.sp,
-                  width: 16,
-                  color: textColor,
+                  height: iconSize ?? 16.sp,
+                  width: iconSize ?? 16.sp,
+                  color: preserveIconColor ? null : textColor,
                 )
               else
                 const SizedBox(),
+              const HorizontalMargin(5),
               Text(
                 text,
                 style: Config.b1(context).copyWith(
@@ -78,9 +86,9 @@ class AppButton extends StatelessWidget {
               if (icon != null)
                 SvgPicture.asset(
                   icon!,
-                  height: 16.sp,
-                  width: 16.sp,
-                  color: textColor,
+                  height: iconSize ?? 16.sp,
+                  width: iconSize ?? 16.sp,
+                  color: preserveIconColor ? null : textColor,
                 )
               else
                 const SizedBox(),

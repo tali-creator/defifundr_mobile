@@ -3,6 +3,7 @@ import 'package:defifundr_mobile/core/global/constants/app_texts.dart';
 import 'package:defifundr_mobile/core/global/constants/size.dart';
 import 'package:defifundr_mobile/core/global/themes/color_scheme.dart';
 import 'package:defifundr_mobile/core/routers/routes_constants.dart';
+import 'package:defifundr_mobile/core/shared/bottom_sheet/base_bottom_sheet.dart';
 import 'package:defifundr_mobile/core/shared/button/buttons.dart';
 import 'package:defifundr_mobile/core/shared/custom_tooast/custom_tooast.dart';
 import 'package:defifundr_mobile/core/shared/textfield/textfield.dart';
@@ -11,6 +12,7 @@ import 'package:defifundr_mobile/core/utils/loading_overlay.dart';
 import 'package:defifundr_mobile/features/authentication/presentation/login/states/bloc/login_state_bloc.dart';
 import 'package:defifundr_mobile/features/authentication/presentation/login/states/get_user_details/bloc/get_user_details_bloc.dart';
 import 'package:defifundr_mobile/features/authentication/presentation/signup/states/bloc/sign_up_bloc.dart';
+import 'package:defifundr_mobile/features/authentication/presentation/signup/widgets/did_you_know_option.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -162,13 +164,35 @@ class _LoginScreenState extends ConsumerState<LoginScreen>
                                       text: AppTexts.login,
                                       isActive: isValidate.value,
                                       onTap: () async {
-                                        context
+                                        /*context
                                             .read<LoginStateBloc>()
                                             .add(LoginInUserEvent(
                                               user: _emailController.text,
                                               password:
                                                   _passwordController.text,
-                                            ));
+                                            ));*/
+                                        showModalBottomSheet(
+                                            context: context,
+                                            backgroundColor: Colors.transparent,
+                                            useRootNavigator: true,
+                                            isScrollControlled: true,
+                                            builder: (BuildContext context) {
+                                              return BaseBottomSheet(
+                                                title: AppTexts.didYouKnow,
+                                                items: [
+                                                  DidYouKnowOption(
+                                                      label: AppTexts.privateKey,
+                                                      description: AppTexts.yourPrivateKeyIsA64Char
+                                                  ),
+                                                  VerticalMargin(15),
+                                                  DidYouKnowOption(
+                                                      label: AppTexts.recoveryOrSeedPhrase,
+                                                      description: AppTexts.yourRecoveryOrSeedPhrase
+                                                  )
+                                                ]
+                                              );
+                                            }
+                                        );
                                       },
                                       textColor: AppColors.white100,
                                       textSize: 12,
