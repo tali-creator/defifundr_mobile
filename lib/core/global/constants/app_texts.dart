@@ -54,12 +54,23 @@ class AppTexts {
   static String invalidCode = "invalid otp code";
   static String incompleteRegistration = "incomplete registration";
   static String userNotVerified = "user not verified";
-  static String signUp = "Sign up";
   static String enterCode = "Please enter the code sent to";
   static String changeEmail = "Change email";
   static String codeExpiresIn = "Code expires in:";
   static String didntGetCode = "Didn't get code?";
   static String resendCode = "Resend code";
+  static String enterEmail = "Enter email address";
+  static String whatsYourEmail = "'Hi, what’s your email?";
+  static String yourEmailAddressWillImprove =
+      "Relax your email address will help improve with account verification.";
+  static String continueAsGuest = "Continue as Guest";
+  static String next = "Next";
+  static String signup = "Sign up";
+  static String importWallet = "Import wallet with?";
+  static String importWalletDesc =
+      "Choose how you'd like to import an existing wallet";
+  static String privateKeyButton = "Private Key";
+  static String seedPhrase = "Recovery or Seed phrase";
 
   //! DASHBOARD
   static String searchCampaign = "Search Campaign";

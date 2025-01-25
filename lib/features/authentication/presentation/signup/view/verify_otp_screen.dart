@@ -60,7 +60,7 @@ class _VerifyOTPScreenState extends ConsumerState<VerifyOTPScreen> with LoadingO
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          AppTexts.signUp,
+          AppTexts.signup,
           style: TextStyle(fontWeight: FontWeight.w700, fontSize: 20.sp),
         ),
         centerTitle: true,
