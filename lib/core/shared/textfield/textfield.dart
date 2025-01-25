@@ -90,6 +90,7 @@ class AppTextField extends StatelessWidget {
             color: AppColors.primaryColor,
           ),
           decoration: InputDecoration(
+            contentPadding: EdgeInsets.all(20),
             fillColor: AppColors.textfieldColor,
             focusColor: AppColors.white100,
             filled: true,

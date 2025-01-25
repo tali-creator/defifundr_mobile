@@ -1,6 +1,9 @@
 class AppImages {
   static const _baseAssetUrl = 'assets/images/';
 
+  // Authentification
+  static String mailbox = '${_baseAssetUrl}mailbox.svg';
+
   //? Onboarding
   static String bank = '${_baseAssetUrl}bank.png';
   static String appLogoQr = '${_baseAssetUrl}appLogoQr.png';

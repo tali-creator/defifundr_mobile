@@ -184,6 +184,26 @@ class AppRouter {
               },
             ),
             GoRoute(
+              path: 'import_wallet',
+              name: RouteConstants.importWallet,
+              pageBuilder: (context, state) {
+                return CustomTransitionPage(
+                  key: state.pageKey,
+                  child: ImportWalletScreen(),
+                  transitionsBuilder:
+                      (context, animation, secondaryAnimation, child) {
+                    // Change the opacity of the screen using a Curve based on the the animation's
+                    // value
+                    return FadeTransition(
+                      opacity: CurveTween(curve: Curves.easeInOutCirc)
+                          .animate(animation),
+                      child: child,
+                    );
+                  },
+                );
+              },
+            ),
+            GoRoute(
               path: 'verifyEmail',
               name: RouteConstants.verifyEmail,
               pageBuilder: (context, state) {
@@ -521,6 +541,24 @@ class AppRouter {
                             (context, animation, secondaryAnimation, child) {
                           // Change the opacity of the screen using a Curve based on the the animation's
                           // value
+                          return FadeTransition(
+                            opacity: CurveTween(curve: Curves.easeInOutCirc)
+                                .animate(animation),
+                            child: child,
+                          );
+                        },
+                      );
+                    },
+                  ),
+                  GoRoute(
+                    path: 'walletConfirmation',
+                    name: RouteConstants.walletConfirmation,
+                    pageBuilder: (context, state) {
+                      return CustomTransitionPage(
+                        key: state.pageKey,
+                        child: WalletConfirmetionScreen(),
+                        transitionsBuilder:
+                            (context, animation, secondaryAnimation, child) {
                           return FadeTransition(
                             opacity: CurveTween(curve: Curves.easeInOutCirc)
                                 .animate(animation),

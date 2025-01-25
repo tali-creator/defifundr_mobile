@@ -13,6 +13,8 @@ class AppIcons {
   static String search = '${_baseAssetUrl}search.svg';
   static String smileSuccess = '${_baseAssetUrl}smile_success.svg';
   static String sadError = '${_baseAssetUrl}sad_error.svg';
+  static String arrowBack = '${_baseAssetUrl}back_arrow.svg';
+  static String personSupport = '${_baseAssetUrl}person_support.svg';
 
   //! DASHBOARD
   static String ether = '${_baseAssetUrl}eth.svg';

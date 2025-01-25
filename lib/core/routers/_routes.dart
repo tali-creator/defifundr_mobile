@@ -1,14 +1,12 @@
-
-
 import 'package:defifundr_mobile/core/cache/app_cache.dart';
 import 'package:defifundr_mobile/core/di/injector.dart';
 import 'package:defifundr_mobile/core/routers/routes_constants.dart';
 import 'package:defifundr_mobile/core/secure/secure.dart';
-import 'package:defifundr_mobile/core/secure/secure_key.dart';
 import 'package:defifundr_mobile/core/shared/bottom_navigator/bottom_navigator.dart';
 import 'package:defifundr_mobile/features/authentication/presentation/forget_password/view/reset_email_screen.dart';
 import 'package:defifundr_mobile/features/authentication/presentation/forget_password/view/reset_otp_screen.dart';
 import 'package:defifundr_mobile/features/authentication/presentation/forget_password/view/reset_password_screen.dart';
+import 'package:defifundr_mobile/features/authentication/presentation/forget_password/view/wallet_confirmation_screen.dart';
 import 'package:defifundr_mobile/features/authentication/presentation/login/view/login_screen.dart';
 import 'package:defifundr_mobile/features/authentication/presentation/login/view/reoccurying_login_screen.dart';
 import 'package:defifundr_mobile/features/authentication/presentation/login/view/select_avatar_screen.dart';
@@ -26,6 +24,7 @@ import 'package:defifundr_mobile/features/profile/presentation/view/edit_profile
 import 'package:defifundr_mobile/features/profile/presentation/view/security_screen.dart';
 import 'package:defifundr_mobile/features/profile/presentation/view/select_avatar_screen.dart';
 import 'package:defifundr_mobile/features/profile/presentation/view/view_private_key_screen.dart';
+import 'package:defifundr_mobile/features/authentication/presentation/signup/view/import_wallet_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
