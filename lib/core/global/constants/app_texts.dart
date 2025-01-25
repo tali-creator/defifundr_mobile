@@ -54,6 +54,11 @@ class AppTexts {
   static String invalidCode = "invalid otp code";
   static String incompleteRegistration = "incomplete registration";
   static String userNotVerified = "user not verified";
+  static String enterCode = "Please enter the code sent to";
+  static String changeEmail = "Change email";
+  static String codeExpiresIn = "Code expires in:";
+  static String didntGetCode = "Didn't get code?";
+  static String resendCode = "Resend code";
   static String enterEmail = "Enter email address";
   static String whatsYourEmail = "'Hi, what’s your email?";
   static String yourEmailAddressWillImprove =
