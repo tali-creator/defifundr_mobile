@@ -66,6 +66,10 @@ class AppTexts {
       "Choose how you'd like to import an existing wallet";
   static String privateKeyButton = "Private Key";
   static String seedPhrase = "Recovery or Seed phrase";
+  static String enterYourPrivateKey = "Enter your private key";
+  static String pasteOrTypePrivateKey = "Please type or paste your private key";
+  static String typePrivateKey= "Paste or type private key";
+  static String importMyAccount = "Import my account";
 
   //! DASHBOARD
   static String searchCampaign = "Search Campaign";
