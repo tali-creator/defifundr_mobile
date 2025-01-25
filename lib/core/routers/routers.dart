@@ -531,6 +531,24 @@ class AppRouter {
                       );
                     },
                   ),
+                  GoRoute(
+                    path: 'walletConfirmation',
+                    name: RouteConstants.walletConfirmation,
+                    pageBuilder: (context, state) {
+                      return CustomTransitionPage(
+                        key: state.pageKey,
+                        child: WalletConfirmetionScreen(),
+                        transitionsBuilder:
+                            (context, animation, secondaryAnimation, child) {
+                          return FadeTransition(
+                            opacity: CurveTween(curve: Curves.easeInOutCirc)
+                                .animate(animation),
+                            child: child,
+                          );
+                        },
+                      );
+                    },
+                  ),
                 ]),
           ]),
     ],
