@@ -54,7 +54,6 @@ class AppTexts {
   static String invalidCode = "invalid otp code";
   static String incompleteRegistration = "incomplete registration";
   static String userNotVerified = "user not verified";
-  static String signUP = "Sign up";
   static String enterEmail = "Enter email address";
   static String whatsYourEmail = "'Hi, what’s your email?";
   static String yourEmailAddressWillImprove =

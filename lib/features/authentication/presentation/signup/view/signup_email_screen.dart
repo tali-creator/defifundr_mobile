@@ -26,7 +26,7 @@ class _SignupEmailScreenState extends State<SignupEmailScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(AppTexts.signUP),
+        title: Text(AppTexts.signup),
         centerTitle: true,
         leading: IconButton(
           onPressed: () {},
