@@ -1,4 +1,3 @@
-
 import 'package:defifundr_mobile/bloc_provider.dart';
 import 'package:defifundr_mobile/core/routers/_routes.dart';
 import 'package:flutter/material.dart';
@@ -50,7 +49,6 @@ class _MyAppState extends ConsumerState<MyApp> {
       ),
     );
   }
-
 }
 
 class _AppScrollBehavior extends ScrollBehavior {

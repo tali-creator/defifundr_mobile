@@ -16,7 +16,7 @@ DefiFundr is a decentralized crowdfunding platform built on the Ethereum blockch
 - Golang (for running the local blockchain)
 - Ganache (for running the local blockchain)
 - Metamask (for interacting with the blockchain)
-- Solidity (for writing smart contracts)
+- Solidity and Cairo (for writing smart contracts)
 
 <!-- Project Code Architecture -->
 ## Project Code Architecture
