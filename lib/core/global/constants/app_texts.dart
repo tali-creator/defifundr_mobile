@@ -54,6 +54,11 @@ class AppTexts {
   static String invalidCode = "invalid otp code";
   static String incompleteRegistration = "incomplete registration";
   static String userNotVerified = "user not verified";
+  static String signup = "Sign up";
+  static String importWallet = "Import wallet with?";
+  static String importWalletDesc = "Choose how you'd like to import an existing wallet";
+  static String privateKeyButton = "Private Key";
+  static String seedPhrase = "Recovery or Seed phrase";
 
   //! DASHBOARD
   static String searchCampaign = "Search Campaign";

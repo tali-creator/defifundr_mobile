@@ -25,6 +25,7 @@ import 'package:defifundr_mobile/features/profile/presentation/view/edit_profile
 import 'package:defifundr_mobile/features/profile/presentation/view/security_screen.dart';
 import 'package:defifundr_mobile/features/profile/presentation/view/select_avatar_screen.dart';
 import 'package:defifundr_mobile/features/profile/presentation/view/view_private_key_screen.dart';
+import 'package:defifundr_mobile/features/authentication/presentation/signup/view/import_wallet_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
