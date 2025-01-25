@@ -84,6 +84,9 @@ class _$CheckUsernameStateCopyWithImpl<$Res, $Val extends CheckUsernameState>
   final $Val _value;
   // ignore: unused_field
   final $Res Function($Val) _then;
+
+  /// Create a copy of CheckUsernameState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -100,6 +103,9 @@ class __$$InitialImplCopyWithImpl<$Res>
   __$$InitialImplCopyWithImpl(
       _$InitialImpl _value, $Res Function(_$InitialImpl) _then)
       : super(_value, _then);
+
+  /// Create a copy of CheckUsernameState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -214,6 +220,9 @@ class __$$CheckingUserImplCopyWithImpl<$Res>
   __$$CheckingUserImplCopyWithImpl(
       _$CheckingUserImpl _value, $Res Function(_$CheckingUserImpl) _then)
       : super(_value, _then);
+
+  /// Create a copy of CheckUsernameState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -331,6 +340,8 @@ class __$$CheckUsernameLoadedImplCopyWithImpl<$Res>
       $Res Function(_$CheckUsernameLoadedImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of CheckUsernameState
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -369,7 +380,9 @@ class _$CheckUsernameLoadedImpl implements _CheckUsernameLoaded {
   @override
   int get hashCode => Object.hash(runtimeType, message);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of CheckUsernameState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$CheckUsernameLoadedImplCopyWith<_$CheckUsernameLoadedImpl> get copyWith =>
@@ -456,7 +469,10 @@ abstract class _CheckUsernameLoaded implements CheckUsernameState {
       _$CheckUsernameLoadedImpl;
 
   bool get message;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of CheckUsernameState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$CheckUsernameLoadedImplCopyWith<_$CheckUsernameLoadedImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -478,6 +494,8 @@ class __$$CheckUsernameErrorImplCopyWithImpl<$Res>
       $Res Function(_$CheckUsernameErrorImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of CheckUsernameState
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -516,7 +534,9 @@ class _$CheckUsernameErrorImpl implements _CheckUsernameError {
   @override
   int get hashCode => Object.hash(runtimeType, message);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of CheckUsernameState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$CheckUsernameErrorImplCopyWith<_$CheckUsernameErrorImpl> get copyWith =>
@@ -603,7 +623,10 @@ abstract class _CheckUsernameError implements CheckUsernameState {
       _$CheckUsernameErrorImpl;
 
   String get message;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of CheckUsernameState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$CheckUsernameErrorImplCopyWith<_$CheckUsernameErrorImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

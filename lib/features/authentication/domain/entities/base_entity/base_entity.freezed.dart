@@ -24,8 +24,12 @@ mixin _$BaseEntity {
   String get message => throw _privateConstructorUsedError;
   int get status => throw _privateConstructorUsedError;
 
+  /// Serializes this BaseEntity to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of BaseEntity
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   $BaseEntityCopyWith<BaseEntity> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -49,6 +53,8 @@ class _$BaseEntityCopyWithImpl<$Res, $Val extends BaseEntity>
   // ignore: unused_field
   final $Res Function($Val) _then;
 
+  /// Create a copy of BaseEntity
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -92,6 +98,8 @@ class __$$BaseEntityImplCopyWithImpl<$Res>
       _$BaseEntityImpl _value, $Res Function(_$BaseEntityImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of BaseEntity
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -147,11 +155,13 @@ class _$BaseEntityImpl implements _BaseEntity {
             (identical(other.status, status) || other.status == status));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(runtimeType, data, message, status);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of BaseEntity
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$BaseEntityImplCopyWith<_$BaseEntityImpl> get copyWith =>
@@ -180,8 +190,11 @@ abstract class _BaseEntity implements BaseEntity {
   String get message;
   @override
   int get status;
+
+  /// Create a copy of BaseEntity
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$BaseEntityImplCopyWith<_$BaseEntityImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

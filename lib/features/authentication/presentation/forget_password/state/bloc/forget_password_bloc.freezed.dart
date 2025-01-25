@@ -143,6 +143,9 @@ class _$ForgetPasswordStateCopyWithImpl<$Res, $Val extends ForgetPasswordState>
   final $Val _value;
   // ignore: unused_field
   final $Res Function($Val) _then;
+
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -159,6 +162,9 @@ class __$$InitialImplCopyWithImpl<$Res>
   __$$InitialImplCopyWithImpl(
       _$InitialImpl _value, $Res Function(_$InitialImpl) _then)
       : super(_value, _then);
+
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -335,6 +341,8 @@ class __$$ForgetPasswordErrorImplCopyWithImpl<$Res>
       $Res Function(_$ForgetPasswordErrorImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -373,7 +381,9 @@ class _$ForgetPasswordErrorImpl implements _ForgetPasswordError {
   @override
   int get hashCode => Object.hash(runtimeType, message);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$ForgetPasswordErrorImplCopyWith<_$ForgetPasswordErrorImpl> get copyWith =>
@@ -519,7 +529,10 @@ abstract class _ForgetPasswordError implements ForgetPasswordState {
       _$ForgetPasswordErrorImpl;
 
   String get message;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$ForgetPasswordErrorImplCopyWith<_$ForgetPasswordErrorImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -538,6 +551,9 @@ class __$$LoadingImplCopyWithImpl<$Res>
   __$$LoadingImplCopyWithImpl(
       _$LoadingImpl _value, $Res Function(_$LoadingImpl) _then)
       : super(_value, _then);
+
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -715,6 +731,8 @@ class __$$ForgetPasswordSuccessImplCopyWithImpl<$Res>
       $Res Function(_$ForgetPasswordSuccessImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -753,7 +771,9 @@ class _$ForgetPasswordSuccessImpl implements _ForgetPasswordSuccess {
   @override
   int get hashCode => Object.hash(runtimeType, message);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$ForgetPasswordSuccessImplCopyWith<_$ForgetPasswordSuccessImpl>
@@ -899,7 +919,10 @@ abstract class _ForgetPasswordSuccess implements ForgetPasswordState {
       _$ForgetPasswordSuccessImpl;
 
   String get message;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$ForgetPasswordSuccessImplCopyWith<_$ForgetPasswordSuccessImpl>
       get copyWith => throw _privateConstructorUsedError;
 }
@@ -918,6 +941,9 @@ class __$$VerifyingOtpImplCopyWithImpl<$Res>
   __$$VerifyingOtpImplCopyWithImpl(
       _$VerifyingOtpImpl _value, $Res Function(_$VerifyingOtpImpl) _then)
       : super(_value, _then);
+
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -1097,6 +1123,8 @@ class __$$OtpVerificationSuccessfulImplCopyWithImpl<$Res>
       $Res Function(_$OtpVerificationSuccessfulImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -1135,7 +1163,9 @@ class _$OtpVerificationSuccessfulImpl implements _OtpVerificationSuccessful {
   @override
   int get hashCode => Object.hash(runtimeType, message);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$OtpVerificationSuccessfulImplCopyWith<_$OtpVerificationSuccessfulImpl>
@@ -1281,7 +1311,10 @@ abstract class _OtpVerificationSuccessful implements ForgetPasswordState {
       _$OtpVerificationSuccessfulImpl;
 
   String get message;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$OtpVerificationSuccessfulImplCopyWith<_$OtpVerificationSuccessfulImpl>
       get copyWith => throw _privateConstructorUsedError;
 }
@@ -1303,6 +1336,8 @@ class __$$OtpVerificationErrorImplCopyWithImpl<$Res>
       $Res Function(_$OtpVerificationErrorImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -1341,7 +1376,9 @@ class _$OtpVerificationErrorImpl implements _OtpVerificationError {
   @override
   int get hashCode => Object.hash(runtimeType, message);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$OtpVerificationErrorImplCopyWith<_$OtpVerificationErrorImpl>
@@ -1488,7 +1525,10 @@ abstract class _OtpVerificationError implements ForgetPasswordState {
       _$OtpVerificationErrorImpl;
 
   String get message;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$OtpVerificationErrorImplCopyWith<_$OtpVerificationErrorImpl>
       get copyWith => throw _privateConstructorUsedError;
 }
@@ -1507,6 +1547,9 @@ class __$$ResendingOtpImplCopyWithImpl<$Res>
   __$$ResendingOtpImplCopyWithImpl(
       _$ResendingOtpImpl _value, $Res Function(_$ResendingOtpImpl) _then)
       : super(_value, _then);
+
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -1683,6 +1726,8 @@ class __$$OtpResendSuccessfulImplCopyWithImpl<$Res>
       $Res Function(_$OtpResendSuccessfulImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -1721,7 +1766,9 @@ class _$OtpResendSuccessfulImpl implements _OtpResendSuccessful {
   @override
   int get hashCode => Object.hash(runtimeType, message);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$OtpResendSuccessfulImplCopyWith<_$OtpResendSuccessfulImpl> get copyWith =>
@@ -1867,7 +1914,10 @@ abstract class _OtpResendSuccessful implements ForgetPasswordState {
       _$OtpResendSuccessfulImpl;
 
   String get message;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$OtpResendSuccessfulImplCopyWith<_$OtpResendSuccessfulImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -1889,6 +1939,8 @@ class __$$OtpResendErrorImplCopyWithImpl<$Res>
       _$OtpResendErrorImpl _value, $Res Function(_$OtpResendErrorImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -1927,7 +1979,9 @@ class _$OtpResendErrorImpl implements _OtpResendError {
   @override
   int get hashCode => Object.hash(runtimeType, message);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$OtpResendErrorImplCopyWith<_$OtpResendErrorImpl> get copyWith =>
@@ -2072,7 +2126,10 @@ abstract class _OtpResendError implements ForgetPasswordState {
   const factory _OtpResendError(final String message) = _$OtpResendErrorImpl;
 
   String get message;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$OtpResendErrorImplCopyWith<_$OtpResendErrorImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -2091,6 +2148,9 @@ class __$$CreatingPasswordImplCopyWithImpl<$Res>
   __$$CreatingPasswordImplCopyWithImpl(_$CreatingPasswordImpl _value,
       $Res Function(_$CreatingPasswordImpl) _then)
       : super(_value, _then);
+
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -2268,6 +2328,8 @@ class __$$CreatePasswordSuccessImplCopyWithImpl<$Res>
       $Res Function(_$CreatePasswordSuccessImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -2306,7 +2368,9 @@ class _$CreatePasswordSuccessImpl implements _CreatePasswordSuccess {
   @override
   int get hashCode => Object.hash(runtimeType, message);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$CreatePasswordSuccessImplCopyWith<_$CreatePasswordSuccessImpl>
@@ -2452,7 +2516,10 @@ abstract class _CreatePasswordSuccess implements ForgetPasswordState {
       _$CreatePasswordSuccessImpl;
 
   String get message;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$CreatePasswordSuccessImplCopyWith<_$CreatePasswordSuccessImpl>
       get copyWith => throw _privateConstructorUsedError;
 }
@@ -2474,6 +2541,8 @@ class __$$CreatePasswordErrorImplCopyWithImpl<$Res>
       $Res Function(_$CreatePasswordErrorImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -2512,7 +2581,9 @@ class _$CreatePasswordErrorImpl implements _CreatePasswordError {
   @override
   int get hashCode => Object.hash(runtimeType, message);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$CreatePasswordErrorImplCopyWith<_$CreatePasswordErrorImpl> get copyWith =>
@@ -2658,7 +2729,10 @@ abstract class _CreatePasswordError implements ForgetPasswordState {
       _$CreatePasswordErrorImpl;
 
   String get message;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of ForgetPasswordState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$CreatePasswordErrorImplCopyWith<_$CreatePasswordErrorImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

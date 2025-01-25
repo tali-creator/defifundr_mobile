@@ -46,4 +46,8 @@ class AppIcons {
 
   //! PROFILE
   static String copyPaste = '${_baseAssetUrl}copy-paste.svg';
+
+  //! AUTH
+  static String keyIcon = '${_baseAssetUrl}solar_key_icon.svg';
+  static String cancel = '${_baseAssetUrl}cancel_icon.svg';
 }

@@ -85,6 +85,9 @@ class _$SetBiometricsBlocStateCopyWithImpl<$Res,
   final $Val _value;
   // ignore: unused_field
   final $Res Function($Val) _then;
+
+  /// Create a copy of SetBiometricsBlocState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -101,6 +104,9 @@ class __$$InitialImplCopyWithImpl<$Res>
   __$$InitialImplCopyWithImpl(
       _$InitialImpl _value, $Res Function(_$InitialImpl) _then)
       : super(_value, _then);
+
+  /// Create a copy of SetBiometricsBlocState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -215,6 +221,9 @@ class __$$LoadingStateImplCopyWithImpl<$Res>
   __$$LoadingStateImplCopyWithImpl(
       _$LoadingStateImpl _value, $Res Function(_$LoadingStateImpl) _then)
       : super(_value, _then);
+
+  /// Create a copy of SetBiometricsBlocState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -332,6 +341,8 @@ class __$$ErrorStateImplCopyWithImpl<$Res>
       _$ErrorStateImpl _value, $Res Function(_$ErrorStateImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of SetBiometricsBlocState
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -370,7 +381,9 @@ class _$ErrorStateImpl implements ErrorState {
   @override
   int get hashCode => Object.hash(runtimeType, error);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of SetBiometricsBlocState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$ErrorStateImplCopyWith<_$ErrorStateImpl> get copyWith =>
@@ -455,7 +468,10 @@ abstract class ErrorState implements SetBiometricsBlocState {
   const factory ErrorState(final String error) = _$ErrorStateImpl;
 
   String get error;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of SetBiometricsBlocState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$ErrorStateImplCopyWith<_$ErrorStateImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -477,6 +493,8 @@ class __$$LoadedStateImplCopyWithImpl<$Res>
       _$LoadedStateImpl _value, $Res Function(_$LoadedStateImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of SetBiometricsBlocState
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -516,7 +534,9 @@ class _$LoadedStateImpl implements LoadedState {
   @override
   int get hashCode => Object.hash(runtimeType, biometrics);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of SetBiometricsBlocState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$LoadedStateImplCopyWith<_$LoadedStateImpl> get copyWith =>
@@ -601,7 +621,10 @@ abstract class LoadedState implements SetBiometricsBlocState {
   const factory LoadedState(final String biometrics) = _$LoadedStateImpl;
 
   String get biometrics;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of SetBiometricsBlocState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$LoadedStateImplCopyWith<_$LoadedStateImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

@@ -84,6 +84,9 @@ class _$GetUserDetailsStateCopyWithImpl<$Res, $Val extends GetUserDetailsState>
   final $Val _value;
   // ignore: unused_field
   final $Res Function($Val) _then;
+
+  /// Create a copy of GetUserDetailsState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -100,6 +103,9 @@ class __$$InitialImplCopyWithImpl<$Res>
   __$$InitialImplCopyWithImpl(
       _$InitialImpl _value, $Res Function(_$InitialImpl) _then)
       : super(_value, _then);
+
+  /// Create a copy of GetUserDetailsState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -214,6 +220,9 @@ class __$$LoadingImplCopyWithImpl<$Res>
   __$$LoadingImplCopyWithImpl(
       _$LoadingImpl _value, $Res Function(_$LoadingImpl) _then)
       : super(_value, _then);
+
+  /// Create a copy of GetUserDetailsState
+  /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
@@ -333,6 +342,8 @@ class __$$LoadUserDetailsImplCopyWithImpl<$Res>
       _$LoadUserDetailsImpl _value, $Res Function(_$LoadUserDetailsImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of GetUserDetailsState
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -346,6 +357,8 @@ class __$$LoadUserDetailsImplCopyWithImpl<$Res>
     ));
   }
 
+  /// Create a copy of GetUserDetailsState
+  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $UserResponseCopyWith<$Res> get message {
@@ -379,7 +392,9 @@ class _$LoadUserDetailsImpl implements _LoadUserDetails {
   @override
   int get hashCode => Object.hash(runtimeType, message);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of GetUserDetailsState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$LoadUserDetailsImplCopyWith<_$LoadUserDetailsImpl> get copyWith =>
@@ -466,7 +481,10 @@ abstract class _LoadUserDetails implements GetUserDetailsState {
       _$LoadUserDetailsImpl;
 
   UserResponse get message;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of GetUserDetailsState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$LoadUserDetailsImplCopyWith<_$LoadUserDetailsImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -488,6 +506,8 @@ class __$$ErrorImplCopyWithImpl<$Res>
       _$ErrorImpl _value, $Res Function(_$ErrorImpl) _then)
       : super(_value, _then);
 
+  /// Create a copy of GetUserDetailsState
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -526,7 +546,9 @@ class _$ErrorImpl implements _Error {
   @override
   int get hashCode => Object.hash(runtimeType, message);
 
-  @JsonKey(ignore: true)
+  /// Create a copy of GetUserDetailsState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
   _$$ErrorImplCopyWith<_$ErrorImpl> get copyWith =>
@@ -611,7 +633,10 @@ abstract class _Error implements GetUserDetailsState {
   const factory _Error(final String message) = _$ErrorImpl;
 
   String get message;
-  @JsonKey(ignore: true)
+
+  /// Create a copy of GetUserDetailsState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$ErrorImplCopyWith<_$ErrorImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
