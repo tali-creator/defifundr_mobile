@@ -20,6 +20,7 @@ class AppTexts {
   static String verifyOTPDescription(String email) =>
       "OTP has been sent to $email";
   static String notYourEmail(String email) => "Not $email?";
+  static String signUp = "Sign up";
   static String resendOTP = "Resend OTP";
   static String editEmail = "Edit Email";
   static String editEmailDesc = "Please re-enter your email";
@@ -57,6 +58,12 @@ class AppTexts {
   static String didYouKnow = "Did you know?";
   static String privateKey = "Private Key";
   static String recoveryOrSeedPhrase = "Recovery or Seed Phrase";
+  static String pasteYourRecoveryPhrase = "Paste your recovery phrase";
+  static String pasteOrTypePrivateKey = "Paste or type private key";
+  static String clear = "Clear";
+  static String whatIsARecoveryPhrase = "What is a recovery phrase?";
+  static String learnMore = "Learn more";
+  static String importMyAccount = "Import my account";
   static String yourPrivateKeyIsA64Char = "Your private key is a 64 character special kind of password. It is one way to access your account. Never share it with anyone!";
   static String yourRecoveryOrSeedPhrase = "Your recovery or seed phrase is a 12 word special kind of password. it is another way to access your account and it must be kept private!";
 
