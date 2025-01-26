@@ -171,28 +171,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen>
                                               password:
                                                   _passwordController.text,
                                             ));*/
-                                        showModalBottomSheet(
-                                            context: context,
-                                            backgroundColor: Colors.transparent,
-                                            useRootNavigator: true,
-                                            isScrollControlled: true,
-                                            builder: (BuildContext context) {
-                                              return BaseBottomSheet(
-                                                title: AppTexts.didYouKnow,
-                                                items: [
-                                                  DidYouKnowOption(
-                                                      label: AppTexts.privateKey,
-                                                      description: AppTexts.yourPrivateKeyIsA64Char
-                                                  ),
-                                                  VerticalMargin(15),
-                                                  DidYouKnowOption(
-                                                      label: AppTexts.recoveryOrSeedPhrase,
-                                                      description: AppTexts.yourRecoveryOrSeedPhrase
-                                                  )
-                                                ]
-                                              );
-                                            }
-                                        );
+                                        context.goNamed(RouteConstants.pasteYourRecoveryPhrase);
                                       },
                                       textColor: AppColors.white100,
                                       textSize: 12,

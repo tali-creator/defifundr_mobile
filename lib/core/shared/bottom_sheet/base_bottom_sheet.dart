@@ -54,7 +54,7 @@ class BaseBottomSheet extends StatelessWidget {
                     GestureDetector(
                       onTap: () => context.pop(),
                       child: SvgPicture.asset(
-                        AppIcons.cancel,
+                        AppIcons.cancelRound,
                       ),
                     ),
                   ],

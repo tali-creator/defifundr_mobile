@@ -15,6 +15,9 @@ class AppIcons {
   static String sadError = '${_baseAssetUrl}sad_error.svg';
   static String arrowBack = '${_baseAssetUrl}back_arrow.svg';
   static String personSupport = '${_baseAssetUrl}person_support.svg';
+  static String cancel = '${_baseAssetUrl}cancel.svg';
+  static String document = '${_baseAssetUrl}document_icon.svg';
+  static String rightArrow = '${_baseAssetUrl}right_icon.svg';
 
   //! DASHBOARD
   static String ether = '${_baseAssetUrl}eth.svg';
@@ -51,5 +54,5 @@ class AppIcons {
 
   //! AUTH
   static String keyIcon = '${_baseAssetUrl}solar_key_icon.svg';
-  static String cancel = '${_baseAssetUrl}cancel_icon.svg';
+  static String cancelRound = '${_baseAssetUrl}cancel_icon.svg';
 }
