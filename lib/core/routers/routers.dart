@@ -185,6 +185,26 @@ class AppRouter {
               },
             ),
             GoRoute(
+              path: 'recovery_phrase',
+              name: RouteConstants.recoveryPhrase,
+              pageBuilder: (context, state) {
+                return CustomTransitionPage(
+                  key: state.pageKey,
+                  child: RecoveryPhraseScreen(),
+                  transitionsBuilder:
+                      (context, animation, secondaryAnimation, child) {
+                    // Change the opacity of the screen using a Curve based on the the animation's
+                    // value
+                    return FadeTransition(
+                      opacity: CurveTween(curve: Curves.easeInOutCirc)
+                          .animate(animation),
+                      child: child,
+                    );
+                  },
+                );
+              },
+            ),
+            GoRoute(
               path: 'verifyEmail',
               name: RouteConstants.verifyEmail,
               pageBuilder: (context, state) {

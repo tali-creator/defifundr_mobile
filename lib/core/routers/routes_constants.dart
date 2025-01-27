@@ -26,4 +26,5 @@ class RouteConstants {
   static String security = 'security';
   static String privateKey = 'privateKey';
   static String importWallet = 'importWallet';
+  static String recoveryPhrase = 'recoveryPhrase';
 }
