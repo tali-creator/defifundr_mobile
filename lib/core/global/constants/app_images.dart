@@ -15,4 +15,5 @@ class AppImages {
   static String campaign = '${_baseAssetUrl}campaign.png';
   static String LoaderLogo = '${_baseAssetUrl}loadingIndicator.png';
   static String newAppLogo = '${_baseAssetUrl}newapplogo.png';
+  static String input = '${_baseAssetUrl}input.png';
 }

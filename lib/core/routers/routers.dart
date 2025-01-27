@@ -31,12 +31,14 @@ class AppRouter {
           return CustomTransitionPage(
             key: state.pageKey,
             child: WelcomeScreen(
-              email: state.queryParameters['email'] ?? 'hamiltontyler24@gmail.com',
+              email:
+                  state.queryParameters['email'] ?? 'hamiltontyler24@gmail.com',
             ),
-            transitionsBuilder: (context, animation, secondaryAnimation, child) {
+            transitionsBuilder:
+                (context, animation, secondaryAnimation, child) {
               return FadeTransition(
-                opacity: CurveTween(curve: Curves.easeInOutCirc)
-                    .animate(animation),
+                opacity:
+                    CurveTween(curve: Curves.easeInOutCirc).animate(animation),
                 child: child,
               );
             },
@@ -46,7 +48,7 @@ class AppRouter {
       GoRoute(
           path: '/',
           name: RouteConstants.initial,
-          builder: (context, state) => StartUpScreen(
+          builder: (context, state) => PasscodeScreen(
                 key: state.pageKey,
               ),
           routes: [
