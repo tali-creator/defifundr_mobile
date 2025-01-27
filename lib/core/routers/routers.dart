@@ -183,49 +183,49 @@ class AppRouter {
                 );
               },
             ),
-            GoRoute(
-              path: 'import_wallet',
-              name: RouteConstants.importWallet,
-              pageBuilder: (context, state) {
-                return CustomTransitionPage(
-                  key: state.pageKey,
-                  child: ImportWalletScreen(),
-                  transitionsBuilder:
-                      (context, animation, secondaryAnimation, child) {
-                    // Change the opacity of the screen using a Curve based on the the animation's
-                    // value
-                    return FadeTransition(
-                      opacity: CurveTween(curve: Curves.easeInOutCirc)
-                          .animate(animation),
-                      child: child,
-                    );
-                  },
-                );
-              },
-            ),
-            GoRoute(
-              path: 'verifyEmail',
-              name: RouteConstants.verifyEmail,
-              pageBuilder: (context, state) {
-                return CustomTransitionPage(
-                  key: state.pageKey,
-                  child: VerifyOTPScreen(
-                    username: state.queryParameters['username'] ?? '',
-                    email: state.queryParameters['email'] ?? '',
-                  ),
-                  transitionsBuilder:
-                      (context, animation, secondaryAnimation, child) {
-                    // Change the opacity of the screen using a Curve based on the the animation's
-                    // value
-                    return FadeTransition(
-                      opacity: CurveTween(curve: Curves.easeInOutCirc)
-                          .animate(animation),
-                      child: child,
-                    );
-                  },
-                );
-              },
-            ),
+            // GoRoute(
+            //   path: 'import_wallet',
+            //   name: RouteConstants.importWallet,
+            //   pageBuilder: (context, state) {
+            //     return CustomTransitionPage(
+            //       key: state.pageKey,
+            //       child: ImportWalletScreen(),
+            //       transitionsBuilder:
+            //           (context, animation, secondaryAnimation, child) {
+            //         // Change the opacity of the screen using a Curve based on the the animation's
+            //         // value
+            //         return FadeTransition(
+            //           opacity: CurveTween(curve: Curves.easeInOutCirc)
+            //               .animate(animation),
+            //           child: child,
+            //         );
+            //       },
+            //     );
+            //   },
+            // ),
+            // GoRoute(
+            //   path: 'verifyEmail',
+            //   name: RouteConstants.verifyEmail,
+            //   pageBuilder: (context, state) {
+            //     return CustomTransitionPage(
+            //       key: state.pageKey,
+            //       child: VerifyOTPScreen(
+            //         username: state.queryParameters['username'] ?? '',
+            //         email: state.queryParameters['email'] ?? '',
+            //       ),
+            //       transitionsBuilder:
+            //           (context, animation, secondaryAnimation, child) {
+            //         // Change the opacity of the screen using a Curve based on the the animation's
+            //         // value
+            //         return FadeTransition(
+            //           opacity: CurveTween(curve: Curves.easeInOutCirc)
+            //               .animate(animation),
+            //           child: child,
+            //         );
+            //       },
+            //     );
+            //   },
+            // ),
             GoRoute(
               path: 'confirmPassword',
               name: RouteConstants.confirmPassword,
@@ -568,26 +568,26 @@ class AppRouter {
                       );
                     },
                   ),
-                  GoRoute(
-                    path: 'pasteYourRecoveryPhrase',
-                    name: RouteConstants.pasteYourRecoveryPhrase,
-                    pageBuilder: (context, state) {
-                      return CustomTransitionPage(
-                        key: state.pageKey,
-                        child: PasteRecoveryPhraseScreen(),
-                        transitionsBuilder:
-                            (context, animation, secondaryAnimation, child) {
-                          // Change the opacity of the screen using a Curve based on the the animation's
-                          // value
-                          return FadeTransition(
-                            opacity: CurveTween(curve: Curves.easeInOutCirc)
-                                .animate(animation),
-                            child: child,
-                          );
-                        },
-                      );
-                    },
-                  ),
+                  // GoRoute(
+                  //   path: 'pasteYourRecoveryPhrase',
+                  //   name: RouteConstants.pasteYourRecoveryPhrase,
+                  //   pageBuilder: (context, state) {
+                  //     return CustomTransitionPage(
+                  //       key: state.pageKey,
+                  //       child: PasteRecoveryPhraseScreen(),
+                  //       transitionsBuilder:
+                  //           (context, animation, secondaryAnimation, child) {
+                  //         // Change the opacity of the screen using a Curve based on the the animation's
+                  //         // value
+                  //         return FadeTransition(
+                  //           opacity: CurveTween(curve: Curves.easeInOutCirc)
+                  //               .animate(animation),
+                  //           child: child,
+                  //         );
+                  //       },
+                  //     );
+                  //   },
+                  // ),
                 ]),
           ]),
     ],
