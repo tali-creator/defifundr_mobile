@@ -1,4 +1,3 @@
-Path-> lib/core/global/constants/app_texts.dart
 class AppTexts {
   //! AUTHENTICATION
   static String createAccount = "Create an account";
