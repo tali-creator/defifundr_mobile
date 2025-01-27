@@ -64,9 +64,10 @@ class AppTexts {
   static String whatIsARecoveryPhrase = "What is a recovery phrase?";
   static String learnMore = "Learn more";
   static String importMyAccount = "Import my account";
-  static String yourPrivateKeyIsA64Char = "Your private key is a 64 character special kind of password. It is one way to access your account. Never share it with anyone!";
-  static String yourRecoveryOrSeedPhrase = "Your recovery or seed phrase is a 12 word special kind of password. it is another way to access your account and it must be kept private!";
-
+  static String yourPrivateKeyIsA64Char =
+      "Your private key is a 64 character special kind of password. It is one way to access your account. Never share it with anyone!";
+  static String yourRecoveryOrSeedPhrase =
+      "Your recovery or seed phrase is a 12 word special kind of password. it is another way to access your account and it must be kept private!";
 
   //! DASHBOARD
   static String searchCampaign = "Search Campaign";
@@ -128,4 +129,6 @@ class AppTexts {
   static String security = "Security";
   static String securityDesc = "Enter Password to Access Private Key";
   static String getPrivateKey = "Get Private Key";
+  static String setPasscode = "Set a 6-digit passcode for login";
+  static String passcode = "Passcode";
 }

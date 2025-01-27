@@ -10,11 +10,8 @@ import 'package:defifundr_mobile/features/authentication/presentation/forget_pas
 import 'package:defifundr_mobile/features/authentication/presentation/login/view/login_screen.dart';
 import 'package:defifundr_mobile/features/authentication/presentation/login/view/reoccurying_login_screen.dart';
 import 'package:defifundr_mobile/features/authentication/presentation/login/view/select_avatar_screen.dart';
-import 'package:defifundr_mobile/features/authentication/presentation/signup/signup.dart';
 import 'package:defifundr_mobile/features/authentication/presentation/signup/view/create_password_screen.dart';
-import 'package:defifundr_mobile/features/authentication/presentation/signup/view/paste_recovery_phrase_screen.dart';
 import 'package:defifundr_mobile/features/authentication/presentation/signup/view/signup_screen.dart';
-import 'package:defifundr_mobile/features/authentication/presentation/signup/view/verify_otp_screen.dart';
 import 'package:defifundr_mobile/features/authentication/presentation/welcome_screen/view/welcome_screen.dart';
 import 'package:defifundr_mobile/features/donation/presentation/view/create_donation_screen.dart';
 import 'package:defifundr_mobile/features/home/domain/entities/campaigns/campaigns_entity.dart';
@@ -25,7 +22,7 @@ import 'package:defifundr_mobile/features/profile/presentation/view/edit_profile
 import 'package:defifundr_mobile/features/profile/presentation/view/security_screen.dart';
 import 'package:defifundr_mobile/features/profile/presentation/view/select_avatar_screen.dart';
 import 'package:defifundr_mobile/features/profile/presentation/view/view_private_key_screen.dart';
-import 'package:defifundr_mobile/features/authentication/presentation/signup/view/import_wallet_screen.dart';
+import 'package:defifundr_mobile/features/wallet/presentation/view/passcode_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
