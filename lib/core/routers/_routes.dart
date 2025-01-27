@@ -23,6 +23,8 @@ import 'package:defifundr_mobile/features/profile/presentation/view/security_scr
 import 'package:defifundr_mobile/features/profile/presentation/view/select_avatar_screen.dart';
 import 'package:defifundr_mobile/features/profile/presentation/view/view_private_key_screen.dart';
 import 'package:defifundr_mobile/features/wallet/presentation/view/passcode_screen.dart';
+import 'package:defifundr_mobile/features/authentication/presentation/signup/view/import_wallet_screen.dart';
+import 'package:defifundr_mobile/features/authentication/presentation/signup/view/recovery_phrase_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 

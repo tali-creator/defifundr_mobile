@@ -131,4 +131,6 @@ class AppTexts {
   static String getPrivateKey = "Get Private Key";
   static String setPasscode = "Set a 6-digit passcode for login";
   static String passcode = "Passcode";
+  static String recoveryPhrase = "Enter your recovery phrase";
+  static String done = "Done";
 }
