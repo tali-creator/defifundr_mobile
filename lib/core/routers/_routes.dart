@@ -25,6 +25,7 @@ import 'package:defifundr_mobile/features/profile/presentation/view/view_private
 import 'package:defifundr_mobile/features/wallet/presentation/view/passcode_screen.dart';
 import 'package:defifundr_mobile/features/authentication/presentation/signup/view/import_wallet_screen.dart';
 import 'package:defifundr_mobile/features/authentication/presentation/signup/view/recovery_phrase_screen.dart';
+import 'package:defifundr_mobile/features/authentication/presentation/otp_confirmation/view/verify_email_otp_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
