@@ -21,6 +21,7 @@ class RouteConstants {
   static String donationConfirmation = 'donationConfirmation';
   static String donationSuccess = 'donationSuccess';
   static String viewDonors = 'viewDonors';
+  static String verifyEmailViaOtp = 'verifyEmailViaOtP';
   static String editProfile = 'editProfile';
   static String changePassword = 'changePassword';
   static String security = 'security';
