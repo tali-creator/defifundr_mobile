@@ -12,6 +12,11 @@ DefiFundr is a decentralised payroll and invoice management system.
 <!-- Project Code Architecture -->
 ## Project Code Architecture
 
+<!-- V.I.P.E.R Pattern Architecture-->
+### V.I.P.E.R Pattern Architecture
+
+
+
 
 <!-- Videos -->
 ## Demo
