@@ -99,3 +99,22 @@ make test
 
 ## Screenshots
 
+## 🛠 Branch Naming Convention
+
+We follow a structured branch naming format:
+
+```
+[fix|feat|chore|refactor]-[issue-number]-[short-description]
+```
+
+Example:
+
+```
+feat-23-settings screen
+fix-45-settings-bug
+```
+
+## 💬 Community & Support
+
+- Join our [Telegram](https://t.me/+8RoT2I_nM6kwZjdk) for discussions and support.
+
