@@ -1,4 +1,4 @@
-# DefiFundr - A decentralized crowdfunding platform for the Ethereum blockchain
+# DefiFundr - A decentralised payroll and invoice management system
 
 [![CI](https://github.com/demola234/tdd_weather/actions/workflows/cl.yml/badge.svg)](https://github.com/demola234/tdd_weather/actions/workflows/cl.yml)
 [![codecov](https://codecov.io/gh/demola234/deFICrowdFunding-Mobile/graph/badge.svg?token=VHYGUKF9YA)](https://codecov.io/gh/demola234/deFICrowdFunding-Mobile)
@@ -7,30 +7,20 @@
 
 ## What is DefiFundr?
 
-DefiFundr is a decentralized crowdfunding platform built on the Ethereum blockchain. It allows users to create and contribute to crowdfunding campaigns, and allows campaign creators to set a funding goal and deadline. If the funding goal is met before the deadline, the campaign is successful and the funds are released to the campaign creator. If the funding goal is not met before the deadline, the campaign is unsuccessful and the funds are returned to the contributors.
-
-## Prerequisites
-
-- Flutter SDK
-- Android Studio / Xcode
-- Golang (for running the local blockchain)
-- Ganache (for running the local blockchain)
-- Metamask (for interacting with the blockchain)
-- Solidity and Cairo (for writing smart contracts)
+DefiFundr is a decentralised payroll and invoice management system.
 
 <!-- Project Code Architecture -->
 ## Project Code Architecture
-<!-- Clean Architecture -->
-### Clean Architecture
-The project is structured using the Clean Architecture pattern, which separates the code into different layers based on their responsibilities. The layers are as follows: 
-    - Presentation Layer: This layer contains the UI code, including widgets, screens, and navigation.
-    - Domain Layer: This layer contains the business logic of the application, including use cases, entities, and repositories.
-    - Data Layer: This layer contains the data sources of the application, including local and remote data sources.
+
+<!-- V.I.P.E.R Pattern Architecture-->
+### V.I.P.E.R Pattern Architecture
+
+
+
 
 <!-- Videos -->
 ## Demo
 
-<img src="https://raw.githubusercontent.com/demola234/defiraise_mobile/main/screenshots/DefiFundr3.gif" width="270" height="600"> <img src="https://raw.githubusercontent.com/demola234/defiraise_mobile/main/screenshots/DefiFundr.gif" width="270" height="600"> 
 
 
 ## Installation
@@ -103,35 +93,28 @@ make test
 
 ## Features
 
-- Create a new campaign
-- Contribute to an existing campaign
-- View all campaigns
-- View a single campaign
-- View the current balance of a campaign
-- View the total amount raised by a campaign
-- View the total number of contributors to a campaign
-- View the deadline of a campaign
-- View the funding goal of a campaign
-- View the status of a campaign (successful or unsuccessful)
-- View the creator of a campaign
-- View the contributors to a campaign
-- View the amount contributed by a contributor to a campaign
-- View the total amount contributed by a contributor to all campaigns
-- Change avatar image
-- Biometrics authentication
-- Otp authentication
-- Email authentication
-- Password authentication
+
 
 
 
 ## Screenshots
 
-<img src="https://raw.githubusercontent.com/demola234/defiraise_mobile/main/screenshots/Registration.png" width="270" height="600"> <img src="https://raw.githubusercontent.com/demola234/defiraise_mobile/main/screenshots/Verify.png" width="270" height="600"> <img src="https://raw.githubusercontent.com/demola234/defiraise_mobile/main/screenshots/CreatePass.png" width="270" height="600">
+## 🛠 Branch Naming Convention
 
+We follow a structured branch naming format:
 
-<img src="https://raw.githubusercontent.com/demola234/defiraise_mobile/main/screenshots/SelectAvatar.png" width="270" height="600"> <img src="https://raw.githubusercontent.com/demola234/defiraise_mobile/main/screenshots/HomeScreen.png" width="270" height="600"> <img src="https://raw.githubusercontent.com/demola234/defiraise_mobile/main/screenshots/DonationDetails.png" width="270" height="600">
+```
+[fix|feat|chore|refactor]-[issue-number]-[short-description]
+```
 
-<img src="https://raw.githubusercontent.com/demola234/defiraise_mobile/main/screenshots/ActiveDonations.png" width="270" height="600"> <img src="https://raw.githubusercontent.com/demola234/defiraise_mobile/main/screenshots/AmountDonations.png" width="270" height="600"> <img src="https://raw.githubusercontent.com/demola234/defiraise_mobile/main/screenshots/ConfirmDonations.png" width="270" height="600">
+Example:
 
-<img src="https://raw.githubusercontent.com/demola234/defiraise_mobile/main/screenshots/DonationSuccess.png" width="270" height="600"> <img src="https://raw.githubusercontent.com/demola234/defiraise_mobile/main/screenshots/ProfileScreen.png" width="270" height="600"> <img src="https://raw.githubusercontent.com/demola234/defiraise_mobile/main/screenshots/CreateDonationScreen.png" width="270" height="600">
+```
+feat-23-settings screen
+fix-45-settings-bug
+```
+
+## 💬 Community & Support
+
+- Join our [Telegram](https://t.me/+8RoT2I_nM6kwZjdk) for discussions and support.
+
