@@ -1,3 +1,4 @@
+import 'package:defifundr_mobile/signin.dart';
 import 'package:flutter/material.dart'
     show BuildContext, MaterialApp, StatelessWidget, Widget;
 
@@ -7,6 +8,8 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) => const MaterialApp(
         debugShowCheckedModeBanner: false,
+    home: SignInScreen(),
+
         
       );
 }
