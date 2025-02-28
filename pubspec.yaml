@@ -14,6 +14,7 @@ dependency_overrides:
 dependencies:
   cupertino_icons: ^1.0.2
 
+  currency_picker: ^2.0.21
   flutter:
     sdk: flutter
   #?  flutter_bloc is a Flutter package that helps you to easily implement the BLoC (Business Logic Component) design pattern.
@@ -21,7 +22,9 @@ dependencies:
 
   flutter_native_splash:
     ^2.2.16
+  flutter_svg: ^2.0.17
   get_it: ^8.0.3
+  google_fonts: ^6.2.1
   
 
 dev_dependencies:
